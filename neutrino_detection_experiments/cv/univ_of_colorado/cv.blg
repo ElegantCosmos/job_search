@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: cv.aux
+The style file: ieeetr.bst
+Database file #1: publications.bib.bib
+Repeated entry---line 126 of file publications.bib.bib
+ : @article{Gando:2016zhq
+ :                       ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Alduino:2017ehq
+Warning--empty journal in Alduino:2017mnz
+Warning--empty journal in Lane:2015alq
+You've used 17 entries,
+            1876 wiz_defined-function locations,
+            577 strings with 5882 characters,
+and the built_in function-call counts, 4023 in all, are:
+= -- 411
+> -- 142
+< -- 0
++ -- 53
+- -- 36
+* -- 221
+:= -- 566
+add.period$ -- 18
+call.type$ -- 17
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 263
+empty$ -- 364
+format.name$ -- 36
+if$ -- 1031
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 55
+num.names$ -- 17
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 198
+stack$ -- 0
+substring$ -- 124
+swap$ -- 124
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 31
+width$ -- 19
+write$ -- 173
+(There was 1 error message)

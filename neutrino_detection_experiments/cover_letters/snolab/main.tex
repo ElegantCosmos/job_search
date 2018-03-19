@@ -1,0 +1,98 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage[version=4]{mhchem}
+
+% personal data
+\name{Michinari}{Sakai}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{475 Portola Plaza \#5-123B}{Los Angeles, CA 90095-1547}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(808)~206~4357}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{michsakai@ucla.edu}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{SNOLAB}{Creighton Mine \#9\\1039 Regional Road 24\\Lively, ON P3Y 1N2\\Canada}
+\date{December 04, 2017}
+\opening{Dear SNOLAB,}
+\closing{Best wishes,}
+\enclosure[Attached]{curriculum vit\ae{}, research statement, publication list, list of referees}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+I recently received word from one of my colleagues of a research scientist
+position opening at SNOLAB. I would like to apply for the position.
+
+I am currently working as a post-doctoral researcher at the University of
+California, Los Angeles with the CUORE (Cryogenic Underground Observatory for
+Rare Events) neutrinoless double beta decay experiment at LNGS (Laboratori
+Nazionali del Gran Sasso), Italy working on modeling the radioactive
+contamination backgrounds of the detector and the bolometer thermal signals in a
+cryogenic environment. I have also been heavily involved in the optimization of
+the signal processing for the recent upgrade from CUORE-0 to CUORE which
+increased the detector mass by a factor of almost 20. A paper for our first
+neutrinoless double beta decay analysis using CUORE data was submitted for
+publication in October, 2017, and is currently under review (https://arxiv.org/abs/1710.07988).
+
+Previously, I have also worked on event track reconstruction and particle ID
+techniques in liquid scintillator at KamLAND (Kamioka Liquid Scintillator
+Antineutrino Detector) in Kamioka, Japan. This work involved a dark matter
+search by looking for a directional excess of neutrino fluxes from the core of
+the Sun and Earth. According to my understanding, my work is the first ever
+physics application of directional neutrino reconstruction in scintillator. A
+paper for this is currently under preparation.
+
+My interest and experience in the development of novel neutrino detection
+techniques in liquid scintillator as well as R\&D in the commissioning phases
+of experiments places me in a unique position to apply for your position. I
+believe that I can make a significant impact to your team of scientific
+expertise at SNOLAB.
+
+Please feel free to contact me if you have any questions or need further
+information. Thank you for your consideration.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.

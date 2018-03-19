@@ -1,0 +1,116 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage[version=4]{mhchem}
+
+% personal data
+\name{Michinari}{Sakai}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{475 Portola Plaza \#5-123B}{Los Angeles, CA 90095-1547}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(808)~206~4357}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{michsakai@ucla.edu}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{SNOLAB}{Creighton Mine \#9\\1039 Regional Road 24\\Lively, ON P3Y 1N2\\Canada}
+\recipient{California State University, Los Angeles}
+{College of Natural and Social Sciences\\
+Department of Physics \& Astronomy\\
+5151 State University Drive\\
+Los Angeles, CA 90032}
+%Phone: 323-343-2100
+%E-mail: kaniol@calstatela.edu\\}
+%}
+\date{January 20, 2018}
+\opening{Dear Prof. Konrad Aniol,}
+\closing{Best wishes,}
+%\enclosure[Attached]{curriculum vit\ae{}, research statement, publication list, list of referees}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+I recently received word from our department chair, Prof. Jean Turner, of a potential Assistant Professorship position at California State University, Los Angeles. I would like to apply for the position.
+
+I received my Ph.D. in experimental particle physics from the University of
+Hawaii at Manoa in April, 2016. Throughout my academic career, I have been
+heavily involved in teaching and mentoring students from a wide range of
+backgrounds. This has included working as a teaching assistant during my
+graduate studies where I led 2 undergraduate Physics Laboratory classes of over
+20 students each for a total of 3 semesters. The ethnic and cultural atmosphere
+in Hawaii is one of the most diverse on the planet. This requires instructors
+to effectively convey information in an inclusive and efficient way while
+understanding each of the students' cultures as best as possible. Student
+evaluations for the effectiveness of my teaching and ability to communicate
+were ``excellent''.
+
+My current scholarly work as a post-doctoral researcher at the University of
+California, Los Angeles (UCLA) involves working with the CUORE (Cryogenic
+Underground Observatory for Rare Events) $0\nu\beta\beta$ experiment at LNGS
+(Laboratori Nazionali del Gran Sasso), Italy leading the effort on precision
+modeling of the alpha background contamination of the detector. A paper for our
+first $0\nu\beta\beta$ analysis using CUORE data was submitted for publication
+to PRL in late 2017, and is currently under review
+(https://arxiv.org/abs/1710.07988).
+
+Previously, I have also worked on event track reconstruction and particle ID
+techniques in liquid scintillator at KamLAND (Kamioka Liquid Scintillator
+Antineutrino Detector), a monolithic neutrino detector in Kamioka, Japan. My
+work single handedly opened the doors for the unprecedented ability for
+scintillator detectors to conduct dark matter searches by looking for a
+directional signal of neutrinos from the core of planetary bodies. According to
+my understanding, my work is the first ever physics application of directional
+neutrino reconstruction in scintillator. A paper for this is currently under
+preparation.
+
+In conclusion, my experience mentoring undergraduate students from a wide range
+of cultural backgrounds, and innovative endeavor with projects in 2 foreign
+nations makes me a unique candidate to apply for your position. I believe
+I can make a significant impact to your team of academic and scientific
+prowess at California State University, Los Angeles.
+
+Thank you for your consideration.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.

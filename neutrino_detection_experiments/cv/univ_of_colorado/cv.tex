@@ -1,0 +1,678 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin-SmallCaps]{Fontin} % Main document font
+%\setmainfont{Fontin} % Main document font
+
+%\usepackage{xunicode,xltxtra,url} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+\usepackage[margin=0.7in]{geometry}
+%\usepackage[margin=1.27cm]{geometry} % probably too narrow
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\usepackage{amssymb}
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+\usepackage{bibentry}
+\usepackage{tabularx}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}  % right multiline alignment
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\bulletitem}{~~\llap{\textbullet}~~}
+\newcommand{\tabitem}{~~\llap{}~~}
+\usepackage{enumitem}
+\setlist{nosep,after=\strut}
+\usepackage{amsmath,amssymb}
+
+\titleformat{\section}{\Large\scshape\centering}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{-3pt}{-3pt} % Spacing around sections
+
+\begin{document}
+
+\setlength{\parskip}{\baselineskip}%
+\pagestyle{empty} % Removes page numbering
+
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{center}
+	{\huge{\textsc{Michinari Sakai}}}\\% Your name
+	\noindent\begin{tabular}{r @{$\quad\bullet\quad$} l}
+		\href{mailto:michsakai@ucla.edu}{michsakai@ucla.edu} & 808-206-4357
+	\end{tabular}
+\end{center}
+
+%\section{Personal Data}
+%
+%\begin{center}
+%\noindent\begin{tabular}{rl}
+%%\textsc{Place and Date of Birth:} & Los Angeles, USA  | 16 October 1980\\
+%%\textsc{Place of Birth:} & Los Angeles, USA\\
+%%\textsc{Address:} & 475 Portola Plaza \#5-123B, Los Angeles, CA 90095, USA\\
+%%\textsc{Phone:} & +1-808-206-4357\\
+%%\textsc{email:} & \href{mailto:michsakai@ucla.edu}{michsakai@ucla.edu}
+%\end{tabular}
+%\end{center}
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND AWARDS
+%----------------------------------------------------------------------------------------
+
+%\section{Scholarships and Awards}
+%
+%\noindent\begin{tabular}{rl}
+%	2004 & Award for Outstanding Academic Achievement, Samsung Corp.\\
+%	2001 - 2004 & Undergraduate Achievement Scholarships, Sun Moon
+%	Univ.\\
+%	2001 & Ae-Guk Freshman Scholarship, Sun Moon Univ.\\
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+
+%\noindent\begin{tabular}{r|p{10.4cm}}
+\noindent\begin{tabularx}{\linewidth}{@{}lR@{}}
+	\textsc{KamLAND (Kamioka Liquid Scintillator Antineutrino Detector)} & \textsc{2009 - 2016}\\
+	%Research Assistant, University of Hawaii & \textsc{Aug. 2009 - Apr. 2016}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\textit{Research Assistant, University of Hawaii at Manoa}
+		\begin{itemize}
+			\item Spearheaded development of novel directional neutrino
+				detection technique in scintillator and demonstrated with data
+				for the first time that this can be applied to conduct indirect
+				dark matter searches in scintillator; first ever physics
+				application of neutrino directionaly in scintillator
+			\item Led unprecedented particle ID capability studies in
+				scintillator using track profile reconstruction techniques
+				using never before observed T2K events spilling into KamLAND
+			\item Was responsible for high energy
+				($\gtrsim$\SI{1}{\giga\electronvolt}) energy calibration using
+				cosmic ray muons and applying this to neutrino analysis for
+				first time
+		\end{itemize}
+	\end{minipage}}\\
+	\textsc{Mini-TimeCube (World's Smallest Portable Neutrino Detector)} & \textsc{2009 - 2016}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\textit{Research Assistant, University of Hawaii at Manoa}
+		\begin{itemize}
+			\item Led development of Geant4 detector simulation with team of 3
+				undergraduate students to conducted case studies of neutron
+				capture doping agents in solid scintillator. Simulation results
+				were later used to guide overall detector design during
+				construction
+			%\item Led critical role in directional neutrino/neutron
+			%	reconstruction algorithm
+			\item Was responsible for background studies associated with long
+				lived cosmogenic isotopes \ce{^{8}He}/\ce{^{9}Li} to
+				quantitatively determine effect on detector live time
+			%\item Spearheaded trade studies for \ce{Li}/\ce{B} neutron capture
+			%	dopants in scintillator
+		\end{itemize}
+	\end{minipage}}\\
+	%\textbf{CUORE (Cryogenic Underground Observatory for Rare Events)} & \textsc{Apr. 2016 -} \textit{Current}\\
+	\textsc{CUORE (Cryogenic Underground Observatory for Rare Events)} & \textsc{Apr. 2016 -} \textit{Current}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\textit{Post-doctoral Scholar, University of California, Los Angeles (UCLA)}
+		\begin{itemize}
+			\item Spearheading development of precision $\alpha$ background
+				modeling in collaboration with a graduate student with goal for
+				further background reduction to cover inverted neutrino mass
+				hierarchy of $0\nu\beta\beta$ decay in \ce{^{130}Te}
+			\item Mentored and worked with 2 undergraduate students for
+				investigation of shielding structures to mitigate
+				$\gamma$/$\beta$ backgrounds for next generation
+				$0\nu\beta\beta$ decay searches requiring ultra-low background
+				levels
+			%\item Implemented bolometer thermal model to create mock data for
+			%	first data taking
+		\end{itemize}
+	\end{minipage}}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+
+\section{Leadership and Teaching Experience}
+
+\noindent\begin{tabularx}{\linewidth}{@{}lR@{}}
+%\textsc{Aug. 2007 - May. 2009} & Teaching Assistant, University of Hawaii at Manoa\\
+	\textsc{Mentor}, \textit{UCLA} & \textsc{2016 -} \textit{Current}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\begin{itemize}
+			\item Taught weekly Geant4 tutorials to \num{3}
+				PhD students and \num{3} undergraduate students for 1 semester;
+				students are now able to take on simulation projects of their
+				own and make original contribution
+			%\item Led weekly Physics paper discussion groups for \num{3} PhD
+			%	students, and promoted team work to increase dialogue and
+			%	productivity within team
+		\end{itemize}
+	\end{minipage}}\\
+	\textsc{Teaching Assistant}, \textit{University of Hawaii at Manoa} & \textsc{2007 - 2009}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\begin{itemize}
+			\item Planned classwork and taught 2 weekly undergraduate Physics
+				Laboratory classes of over \num{20} students each for 3
+				semesters, received ``excellent'' reviews
+			\item Mentored undergraduate students in undergraduate Physics
+				classwork for 2 hours each week for 3 semesters
+		\end{itemize}
+	\end{minipage}}\\
+
+%------------------------------------------------
+
+%%\textsc{Jan. 2003 - Mar. 2006} & Interpreter and Teacher\\
+%	\textbf{Interpreter and Teacher} & \textsc{2003 - 2006}\\
+%	\multicolumn{2}{X}{Part time English lecturer for Korean undergraduate students.}\\
+%	\multicolumn{2}{X}{Part time contributing reporter and translator for campus magazine.}\\
+%	\multicolumn{2}{X}{Spontaneous trilingual interpreter for W-CARP International Education Conference.}\\
+%	\multicolumn{2}{X}{Part time translator for magazine Today's World.}\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\noindent\begin{tabularx}{\linewidth}{@{}rl}
+	Human Languages: & English (native), Japanese/Korean (trilingual proficiency)\\
+	Programming Languages: & Proficient in C, C++, Python, Fortran, Mathematica, Bash\\
+	Software/Tools: & \textsc{ROOT}, \textsc{Geant4}, \textsc{Pads}, \textsc{AutoCAD}
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+%\noindent\begin{tabular}{rp{10.3cm}}	
+	\noindent\begin{tabularx}{\linewidth}{@{}lR@{}}	
+	%\textsc{PhD, Experimental Neutrino Physics} & \textsc{2016}\\
+		\textsc{PhD, Experimental Neutrino Physics} & \textsc{2016}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\begin{itemize}
+			\item[] GPA: 4.0/4.0, University of Hawaii at Manoa
+			\item[] Dissertation: High Energy Neutrino Analysis at KamLAND and
+				Application to Dark Matter Search
+		\end{itemize}
+	\end{minipage}}\\
+	%\small GPA: 3.97/4.00 &\\
+	%\small Advisor: Prof. John G. \textsc{Learned} & \\
+
+%------------------------------------------------
+
+	\textsc{Graduate Program in Mathematics} & \textsc{2006}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\begin{itemize}
+			\item[] GPA: 4.5/4.5, Sun Moon University, S.~Korea
+		\end{itemize}
+	\end{minipage}}\\
+	%\small GPA: 4.50/4.50 &\\
+	%& \small Advisor: Prof. Doe-Wan \textsc{Kim}\\
+
+%------------------------------------------------
+
+	\textsc{Double BS, Physics and Mathematics} & \textsc{2005}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\begin{itemize}
+			\item[] GPA: 4.3/4.5, Sun Moon University, S.~Korea
+			\item[] President's Award 2005, Award for Outstanding Academic Achievement -- Samsung Corp.
+		\end{itemize}
+	\end{minipage}}\\
+	%\small Summa Cum Laude, GPA: 4.33/4.50&\\
+	%& \small Advisor: Prof. Ki-Won \textsc{Kim}\\
+
+%------------------------------------------------
+
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+%\section{Languages}
+%
+%\noindent\begin{tabular}{rl}
+%	\textsc{English}, \textsc{Japanese}, \textsc{Korean}\\
+%\end{tabular}
+%
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	POSTERS AND TALKS
+%----------------------------------------------------------------------------------------
+
+\clearpage
+\section{Talks and Presentations}
+
+\noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}r@{}}
+	(Tentative) Monte Carlo Tools for Beyond the Standard Model Physics, Durham, UK \newline Invited Talk: \textsc{Monte Carlo Tools in CUORE} & Apr 2018 \\
+	Argonne National Laboratory \newline Seminar: \textsc{CUORE: A Bolometric Search for Lepton Number Violation} & Feb 2018 \\
+	Division of Nuclear Physics, Pittsburgh/Carnegie Mellon University \newline Talk: \textsc{CUORE and Background Reduction Case Studies for CUPID} & Oct 2017 \\
+	Conference on Science at SURF, South Dakota \newline Invited talk: \textsc{Status of the CUORE $0\nu\beta\beta$ Decay Search} & May 2017 \\
+	Fermilab - Frontiers of Liquid Scintillator Technology \newline Invited talk: \textsc{Particle ID and event reconstruction algorithms in scintillator} & Mar 2016 \\
+	Los Alamos National Laboratory \newline Seminar: \textsc{High Energy Analysis at KamLAND and Application to Dark Matter Search} & Nov 2015 \\
+	California Institute of Technology \newline Seminar: \textsc{High Energy Analysis at KamLAND and Application to Dark Matter Search} & Nov 2015 \\
+	University of California, Los Angeles \newline Seminar: \textsc{High Energy Analysis at KamLAND and Application to Dark Matter Search} & Oct 2015 \\
+	DOE project review, Honolulu, Hawaii \newline Talk: \textsc{High Energy Analysis and Application to Dark Matter Search in KamLAND} & Jul 2015 \\
+	Neutrino, Kyoto, Japan \newline Poster: \textsc{Indirect Dark-Matter Detection Through KamLAND} & Jun 2012 \\
+	University of Hawaii Campus Open-house \newline Talks: \textsc{What is a Neutrino?}, \textsc{mini-TimeCube: The World's Smallest Neutrino Detector} & Nov 2010, 2011 \\
+	Applied Antineutrino Physics, Sendai, Japan \newline Talk: \textsc{mini-TimeCube: A Portable Directional Neutrino Detector} & Aug 2010 \\
+	DOE project review, Honolulu, Hawaii \newline Talk: \textsc{KamLAND Summary} & Sep 2009 \\
+	Fermilab - International Neutrino Summer School \newline Talk: \textsc{Student presentation: How to solve $\theta_{23}$ degeneracy} & Jul 2009 \\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------
+
+%\clearpage
+\section{References}
+
+\noindent\begin{tabular}{rp{12cm}}
+\multicolumn{2}{l}{\footnotesize{Supplied upon request or please contact in
+	person.}}\\
+\multicolumn{2}{c}{}\\
+
+Huan Z. \textsc{Huang} & Professor, University of California, Los Angeles, +1-310-825-9297\\
+& \href{mailto:huang@physics.ucla.edu}{\nolinkurl{huang@physics.ucla.edu}}\\
+& 475 Portola Plaza \#5-136, Los Angeles, CA 90095-1547, USA\\
+\\
+John G. \textsc{Learned} & Professor, University of Hawaii at Manoa, +1-808-956-2964\\
+& \href{mailto:jgl@phys.hawaii.edu}{\nolinkurl{jgl@phys.hawaii.edu}}\\
+& 2505 Correa Rd. \#327, Honolulu, Hawaii 96822, USA\\
+\\
+Yury \textsc{Kolomensky} & Professor, University of California, Berkeley, +1-510-642-9619\\
+& \href{mailto:ygkolomensky@lbl.gov}{\nolinkurl{ygkolomensky@lbl.gov}}\\
+& LeConte Hall \#319, Berkeley, CA, 94720-7300, USA\\
+\\
+Brian K. \textsc{Fujikawa} & Staff Scientist, Lawrence Berkeley National Laboratory, +1-510-486-4398\\
+& \href{mailto:bkfujikawa@lbl.gov}{\nolinkurl{bkfujikawa@lbl.gov}}\\
+& 1 Cyclotron Rd MS 50R5008, Berkeley, CA 94720-8158, USA\\
+\\
+Lindley \textsc{Winslow} & Jerrold R. Zacharias Assistant Professor, MIT, +1-617-253-2332\\
+& \href{mailto:lwinslow@mit.edu}{\nolinkurl{lwinslow@mit.edu}}\\ 
+& 77 Massachusetts Avenue, Bldg. 26-569, Cambridge, MA 02139, USA\\
+\\
+Thomas \textsc{O'Donnell} & Assistant Professor, Virginia Tech, +1-540-231-3308\\
+& \href{mailto:tdonnell@vt.edu}{\nolinkurl{tdonnell@vt.edu}}\\
+& 850 West Campus Drive \#313, Blacksburg, VA 24061, USA\\
+
+%Kunio \textsc{Inoue} & Professor, Tohoku Univ./RCNS, +81-22-795-6727,
+%\href{mailto:inoue@awa.tohoku.ac.jp}{\nolinkurl{inoue@awa.tohoku.ac.jp}}\\
+%
+%Jason \textsc{Kumar} & Assoc. Professor, Univ. of Hawaii at Manoa, +1-808-956-2972,
+%\href{mailto:jkumar@phys.hawaii.edu}{\nolinkurl{jkumar@phys.hawaii.edu}}\\
+%
+%Jelena \textsc{Maricic} & Assoc. Professor, Univ. of Hawaii at Manoa, +1-808-956-7176,
+%\href{mailto:jelena@phys.hawaii.edu}{\nolinkurl{jelena@phys.hawaii.edu}}\\
+
+%Adam \textsc{Bernstein} & P.I. Applied Antineutrino Physics, LLNL,
+%\href{mailto:bernstein3@llnl.gov}{\nolinkurl{bernstein3@llnl.gov}}\\
+%\multicolumn{2}{l}{\footnotesize{(note: I have met Dr. Bernstein once during AAP
+%2010 Sendai, so perhaps he knows me least within the listed referrers.)}}\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\clearpage
+\renewcommand\refname{Publications} %changes default name to Publications
+
+\nocite{*} %lists everything in the .bib file
+%\bibliographystyle{plain} %hundreds of styles to choose from
+\bibliographystyle{ieeetr} %hundreds of styles to choose from
+\bibliography{publications.bib} %name of your .bib file
+%\newrefcontext[sorting=nty]
+%\printbibliography[title=Alphabetic]
+%\bibliographystyle{habbrvyr}
+%\bibliography{publications.bib} %name of your .bib file
+
+
+%\section{Publications}
+%
+%\noindent\begin{tabular}{rp{11cm}}
+%	\multicolumn{2}{l}{\textsc{mini-TimeCube}} \\
+%	2015 (expected) & V.A. Li et al., \textsc{mini-TimeCube}, RSI Invited Review\\
+%	\multicolumn{2}{c}{} \\
+%	\multicolumn{2}{l}{\textsc{KamLAND}} \\
+%	2015 (expected) & K. Asakura et al., \textsc{Search for the Proton Decay
+%Mode $p \rightarrow \overline{\nu} K^{+}$ with KamLAND}, Phys. Rev. D\\
+%	Mar. 2015 & K. Asakura et al., \textsc{Study of electron anti-neutrinos
+%	associated with gamma-ray bursts using KamLAND}, arXiv:1503.02137v1\\
+%	Feb. 2015 & T.I. Banks et al., \textsc{A compact ultra-clean system for
+%	deploying radioactive sources inside the KamLAND detector},
+%	10.1016/j.nima.2014.09.068\\
+%	Jan. 2015 & C. Lane et al., \textsc{A new type of Neutrino Detector for
+%	Sterile Neutrino Search at Nuclear Reactors and Nuclear Nonproliferation
+%	Applications}, arXiv:1501.06935v1\\
+%	May 2014 & A. Gando et al., \textsc{7Be Solar Neutrino Measurement with
+%	KamLAND}, arXiv:1405.6190v1\\
+%	Aug. 2011 & S. Abe et al., \textsc{Measurement of the 8B Solar Neutrino
+%	Flux with the KamLAND Liquid Scintillator Detector},
+%	10.1103/PhysRevC.84.035804\\
+%	Aug. 2011 & J. Kumar, J.G. Learned, M. Sakai, S. Smith,
+%	\textsc{Dark Matter Detection With Electron Neutrinos in Liquid
+%	Scintillation Detectors}, Phys. Rev. D84 (2011) 036007\\
+%\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%   STATEMENT OF TEACHING PHILOSOPHY AND EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\clearpage
+\section{Statement of Teaching Philosophy and Experience}
+
+Throughout my academic career, I have been heavily involved in teaching and
+mentoring students from a wide range of cultures and backgrounds. This has
+included working as a teaching assistant during my graduate studies at
+University of Hawaii at Manoa where I organized and led 2 undergraduate Physics
+Laboratory classes of over 20 students each for a total of 3 semesters. In
+addition, I have also led weekly, 2 hour long, one-on-one tutoring sessions for
+3 semesters. Student evaluations for the effectiveness of my teaching and
+ability to communicate information were ``excellent''.
+
+My philosophy for teaching can be summarized in two points: self motivated
+drive through curiosity, and mastering through iteration. Fist, when teaching
+at any level, and especially at the undergraduate level, it is very important
+to never get bogged down by the equation or numbers. When I begin a class or
+introduce a new concept to students, I always first demonstrate the experiment
+itself or introduce the context in an illustrative way. This is to engage the
+students’ interest and entice their curiosity to develop a long lasting self
+motivated drive to learn. Curiosity is where science is born from and curiosity
+is what drives science forward. This is true whether one is an freshman student
+or a Nobel laureate. Second, iteration is the key to mastering a topic. No
+matter how gifted one may be, no one is able to perfectly master a topic
+instantaneously in a single trial. On the other hand, this also means that even
+if one is not naturally gifted at something, it can be mastered through
+repetitive iteration and failure. The process of iterative learning is how the
+human brain naturally works and is the key to effective learning.
+
+As an example of the above, there was a Physics Laboratory class in which I
+needed to introduce damping of a driven harmonic oscillator in a medium with
+finite viscosity. I knew that the equations describing the physics behind this
+process could be tedious and difficult to grasp at the freshman level I was
+teaching at. But I also knew that the concepts themselves were not inherently
+hard because we all intuitively know from our experiences swimming in a pool,
+how viscous media affects forces. Before going through the equations, I turned
+on the experimental apparatus first, and asked the students what they thought
+would happen when the frequency of the driving force was modified in different
+ways, while at the same time, observing their satisfaction and surprise when
+their predictions were confirmed or debunked. This effectively created a vastly
+more engaged and thoughtful atmosphere for the class and let the students
+concentrate on the ``physics'' of the class while helping them to more
+intuitively understand the equations involved. Of course, it is equally
+important for the instructor to not ``give away'' all the answers by doing all
+the work. The students were left to make multiple failed attempts until they
+were able to get just the right settings to take successful measurements.
+
+In society today, there is an unfortunate misconception that Physics is a
+difficult subject only for \textit{smart} students. Nothing could be further
+from the truth. When students feel that they are not smart enough, it is
+important to let them know that Physics is not about intelligence, but about
+curiosity driven iterative learning. All professional Physicists stand on the
+shoulders of past giants, and almost no research today is conducted solely
+alone, but through collaboration and teamwork. No one is \textit{smart} enough
+to do all the work alone. I usually use myself as an example. I come from a
+small regional college in South Korea with very little opportunity, but through
+diligence and iterative trial, I have had the opportunity to eventually work
+with some of the brightest minds in some of the most innovative projects in the
+field of neutrino physics.
+
+Mentoring higher level graduate students may be slightly different but I
+believe the same overall approach remains the same. I have taught Geant4 Monte
+Carlo particle simulations to 3 undergraduate and 3 Ph.D. students at the
+University of California, Los Angeles (UCLA). My method for teaching this
+toolkit is to learn together with the students by going into the details of the
+code and doing this repetitively every week. Not all the concepts may be clear
+to students in just the first trial, but through iteratively going through and
+encountering similar problems multiple times, students will eventually
+understand and learn basic coding techniques as well as tricky concepts that
+may not have been evident at first. Here, it is important to be immersed in the
+task along with the students instead of teaching from a conventional top-down
+approach because learning how to code is not just about acquiring the skill to
+code, but about learning the culture of coding. By this I mean that there are
+certain useful tools and methods of accomplishing a task that can only be
+learned through going into gritty details and getting \textit{dirty}. As
+students grow and become more knowledgeable, they can start to develop and
+choose their own methods and tools. Through this approach, my students have
+successfully been able to take on simulation tasks of their own and contribute
+effectively to the collaboration.
+
+%----------------------------------------------------------------------------------------
+%	STATEMENT OF RESEARCH
+%----------------------------------------------------------------------------------------
+
+\clearpage
+\section{Statement of Research}
+
+I developed a novel directional event reconstruction algorithm for high-energy
+$\gtrsim$\si{\giga\electronvolt} scale neutrinos while working with KamLAND
+(Kamioka Liquid Scintillation Antineutrino Detector), and demonstrated with
+data that this technique can be applied to indirect dark matter search by
+looking for a directional flux of neutrinos from the core of the Sun and Earth.
+Studies done with Monte Carlo suggest that the accuracy of deducing the
+neutrino direction using this new method is better than that of water-Cherenkov
+detectors (the conventional method for directional neutrino detection) by
+$\sim$\SI{10}{\degree} in this energy regime. This method was verified using
+never before observed neutrino events spilling into KamLAND from the T2K
+neutrino beam-line. The results were consistent with expectation. According to
+my knowledge, this is the first ever physics application of neutrino
+directionality in scintillator.
+
+My work with KamLAND further involved demonstration of 3-dimensional
+topological event imaging techniques, originally developed in the LENA (Low
+Energy Neutrino Astronomy) collaboration, using data for the first time. The
+$\sim$\SI{3.5}{\nano\second} timing resolution of the PMTs (photomultiplier
+tubes) employed in KamLAND are not good enough to do a detailed imaging of all
+the individual tracks in a neutrino event. Nevertheless
+$\gtrsim$\si{\giga\electronvolt} muon tracks and high enough energy tracks in a
+neutrino event were imaged as well as the overall direction of the final state
+particles to resolve the incoming neutrino direction. In addition
+$\frac{\mathrm{d}E}{\mathrm{d}x}$ profiles were investigated to perform
+unprecedented particle ID studies in scintillator at these energies. A paper
+employing these techiques I developed to conduct an indirect dark matter search
+is currently under preparation.
+
+I have been involved with the CUORE (Cryogenic Underground Observatory for Rare
+Events) experiment at the University of California, Los Angeles since early
+2016. The main objective of the CUORE experiment is to hunt for lepton number
+violation by observing neutrinoless double beta ($0\nu\beta\beta$) decay in
+\ce{^{130}Te}. CUORE employs an almost 20 fold increase in detector mass
+compared to its previously successful pilot experiment CUORE-0. My work in the
+collaboration currently involves development of a precision background model
+together with a graduate student colleague to better understand the radioactive
+contaminations in the detector. The energy spectrum of the backgrounds in the
+so called $\alpha$ region ($\gtrsim \SI{2.5}{\mega\electronvolt}$) exhibit
+peculiar features that, if understood correctly, will better explain the types
+of contamination sources and their distributions in the materials comprising
+the experiment. This can help us to better understand our backgrounds and
+extrapolate this new knowledge to the energy region of interest
+(\SIrange{2465}{2575}{\kilo\electronvolt}) for $0\nu\beta\beta$ decay in
+\ce{^{130}Te}. I have previously also mentored 2 undergraduate students and
+worked together with them to simulate and investigate new radioactivity
+shielding schemes for further background reduction in future $0\nu\beta\beta$
+decay experiments that will cover the inverted hierarchy region of the
+effective Majorana neutrino mass.
+A paper for our first $0\nu\beta\beta$ analysis using CUORE data
+was submitted for publication to PRL in late 2017, and is currently under
+review (https://arxiv.org/abs/1710.07988).
+
+%In order to promote more dialogue and efficient teamwork, I have also organized
+%and led weekly Physics paper discussion group sessions involving both
+%undergraduate and graduate students in our laboratory at UCLA. These sessions
+%have helped us not only to know our own experiment better, but to increase our
+%common understanding of the overall field of experimental $0\nu\beta\beta$
+%decay search. Ultimately this has been invaluable for our team to increase
+%our teamwork and productivity, and become a valuable contributor to the collaboration.
+%A paper for our first $0\nu\beta\beta$ analysis using CUORE data
+%was submitted for publication to PRL in late 2017, and is currently under
+%review (https://arxiv.org/abs/1710.07988).
+
+%The focus of my work at the University of Hawaii has been in the directional
+%detection of high energy neutrinos in scintillator and its application toward
+%indirect dark matter searches, directional geo-neutrino measurements, and
+%anti-nuclear proliferation techniques that involve locating the position of the
+%neutrino source.
+%My main interest has been in detector development and novel techniques to
+%search for previously unexplored phase-space regions in neutrino physics. My
+%main interest and past research experience has been in detector development
+%and developing novel techniques to open new methods of exploration in neutrino
+%physics. 
+
+%In addition, I have also worked on 3 other projects: the
+%\SI{1}{\kilo\tonne} liquid scintillator neutrino detection experiment KamLAND
+%(Kamioka Liquid Scintillator Antineutrino Detector) in Kamioka, Japan, a
+%portable \SI{2.2}{\liter} plastic scintillator neutrino detector called the
+%mini-TimeCube, and scintillator R\&D for a future \SI{10}{\kilo\tonne}-scale
+%deep-sea based neutrino detector HanoHano.
+%
+%My work in KamLAND has involved developing directional event reconstruction
+%methods for high-energy $\gtrsim$\si{\giga\electronvolt} scale neutrinos and
+%applying this to conduct an indirect dark matter search by looking at an excess
+%flux of neutrinos from the core of the Sun and Earth. Studies done with Monte
+%Carlo suggest that the accuracy of reconstructing the neutrino direction using
+%this method is better than that of water-Cherenkov detectors by
+%$\sim$\SI{10}{\degree} for this energy regime. This method was tested against
+%initial events spilling into KamLAND from the T2K neutrino beam-line and the
+%results were consistent with what was expected. I believe this is the first
+%ever physics application of neutrino directionality in a scintillator
+%experiment.
+
+In addition, I have worked as the lead Geant4 simulation designer for the
+mini-TimeCube collaboration at University of Hawaii at Manoa. mini-TimeCube is
+an ambitious project to build the world's smallest portable neutrino detector.
+In this project, I mentored 3 undergraduate students and worked in
+collaboration with them to conduct case studies for optimizing the detector
+design, test candidate neutron capture doping elements in plastic scintillator,
+and simulate the response of the multi-channel-plate (MCP) PMTs deployed in the
+detector. The studies were used during construction of the detector, and to
+develop directional algorithms that are now being tested in analyses of
+neutrons from test sources as well as neutrinos from nuclear reactors at NIST.
+%I have also conducted simulation studies for cosmic-ray muons and long-lived
+%cosmogenic background isotopes such as \ce{^{8}He} and \ce{^{9}Li}. These
+%backgrounds are extremely difficult to tag due to their long life-time ($>
+%\sim\si{\second}$ scale) and travel distances. The studies have been vital to
+%the project. 
+Working with the mini-TimeCube project has further involved designing and
+fabricating PCB boards as well as contributing to the FPGA firmware for the
+readout electronics. A paper summarizing our accomplishments was published in
+2016 (V. A. Li et al. Invited Article: miniTimeCube. Rev. Sci. Instrum.,
+87(2):021301, 2016, 1602.01405).
+
+%Finally, my work in scintillator R\&D for HanoHano, a proposed
+%\SI{10}{\kilo\tonne}-scale deep-sea based neutrino detector, involved designing
+%and building apparatuses using CAD for measuring light output of Linear
+%alkylbenzene (LAB) based liquid scintillators when put in large electric
+%potential gradients as well as testing their light transmissivities under
+%extreme temperatures and pressures such as those found in deep-sea
+%environments. This project included mentoring an undergraduate student on
+%techniques for shielding electronic apparatuses and working with another
+%graduate student on designing and operating the cold high pressure environment
+%device.
+
+As a postdoctoral researcher at the University of Colorado, I would like to
+continue my research in the field of neutrino physics as well as development
+and application of topological event imaging techniques in experiments such as
+T2K and DUNE. My past experience developing unprecedented methods in neutrino
+event reconstruction as well as experience in the commissioning phase of 2
+major startup experiments makes me a promising candidate. I believe that I can
+make a significant impact in your team of scientific prowess at the University
+of Colorado.
+
+%----------------------------------------------------------------------------------------
+%   STATEMENT OF CONTRIBUTIONS TO DIVERSITY
+%----------------------------------------------------------------------------------------
+\clearpage
+\section{Statement of Contribution to Diversity}
+
+Having spent 15 years of my adolescent life in South Korea, and being fully
+Japanese by descent, while being born in the United States, I have had the
+unique opportunity to develop an \emph{international} perspective of things
+from a very young age. My ability to converse fluently in 3 languages has also
+greatly helped me to view different people and situations from multiple angles.
+With this sort of upbringing, I have learned from an early age that not only is
+diversity important, but tolerant diversity is just as important. Somehow it is
+the human tendency in a diverse environment, whether it may be in terms of
+race, culture, language, or ideas, when proper communication cannot be made,
+for people to lump the ``other group'' into one generic category. This can be
+for better or for worse, but often times manifests itself in unproductive ways
+when team work is required to reach a common goal. Due to my background and
+abilities, I have countless times served as a mediator of sorts between
+opposing groups often times as an interpreter, translator, or just simply as a
+arbitrator.
+
+This way of thinking has served me invaluably also in my professional career to
+put myself in other peoples' shoes. I have contributed to the education of a
+diverse body of students through Physics Laboratory courses that I taught at
+University of Hawaii at Manoa for 3 semesters from 2007 to 2009. The ethnic and
+cultural atmosphere in Hawaii is one of the most diverse on the planet. The
+University of Hawaii system not only attracts students internationally from
+Asia and from around the globe, but also serves as the hub of higher learning
+for minority students coming from nations in the Pacific Rim such as the
+Marshall Islands and Micronesia. In this cultural melting pot, instructors are
+required to effectively convey information in an inclusive and efficient way
+while understanding each of the students' cultures and needs as best as
+possible. For example, these needs may include supplemental instruction if
+English is not the student's primary language, or specific attention if the
+student comes from a background where STEM is not traditionally emphasized.
+
+In addition, my research has allowed me to live and work in various countries
+around the globe such as Japan and Italy giving me the opportunity to work with
+a wide range of ethnicities and cultures. For example, during my time in Japan,
+I volunteered to be a presenter to introduce and explain about the various
+research activities conducted by our neutrino experiment (KamLAND) to Japanese
+undergraduate students at Tohoku University. Through this event, I was able
+appeal to diversity by conveying the importance of international collaboration
+that our experiment requires to successfully operate the experiment.
+
+I believe that my multi-cultural upbringing and experiences working in very
+diverse teams of international collaborators, can significantly contribute to
+the spectrum of diversity and inclusive excellence that UCI cherishes.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
