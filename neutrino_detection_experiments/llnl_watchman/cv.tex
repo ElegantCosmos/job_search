@@ -45,6 +45,11 @@
 \usepackage{titlesec} % Used to customize the \section command
 \usepackage{amssymb}
 \usepackage{siunitx}
+\sisetup{per-mode=symbol}
+\sisetup{separate-uncertainty=true}
+\sisetup{inter-unit-product = \ensuremath{\cdot}}
+\sisetup{range-phrase=\ensuremath{-}}
+\sisetup{range-units=single}
 \usepackage[version=4]{mhchem}
 \usepackage{bibentry}
 \usepackage{tabularx}
@@ -63,7 +68,7 @@
 \begin{document}
 
 \setlength{\parskip}{\baselineskip}%
-\pagestyle{empty} % Removes page numbering
+%\pagestyle{empty} % Removes page numbering
 
 %\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 
@@ -107,92 +112,105 @@
 %	SUMMARY
 %----------------------------------------------------------------------------------------
 
-\section{Summary}
-\noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}r@{}}
-	\addlinespace[5pt]
-	Expertise in \textsc{Geant4} and particle simulations with 8 years
-	of experience & \\
-	Experience with cosmogenic radiation and nuclear decay simulations in 3
-	major particle detector experiments & \\
-	Innovative problem solving skills with the ability to interface original
-	work with larger collaboration & \\
-\end{tabularx}
+%\section{Summary}
+%\noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}r@{}}
+%	\addlinespace[5pt]
+%	Expertise in \textsc{Geant4} and particle simulations with 8 years
+%	of experience & \\
+%	Experience with cosmogenic radiation and nuclear decay simulations in 3
+%	major particle detector experiments & \\
+%	Innovative problem solving skills with the ability to interface original
+%	work with larger collaboration & \\
+%\end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	RESEARCH EXPERIENCE 
 %----------------------------------------------------------------------------------------
 
-%\section{Research Experience}
 \section{Experience}
 
 %\noindent\begin{tabular}{r|p{10.4cm}}
 \noindent\begin{tabularx}{\linewidth}{@{}lR@{}}
-	\addlinespace[5pt]
-	%\textbf{CUORE (Cryogenic Underground Observatory for Rare Events)} & \textsc{Mar. 15, 2016 -} \textit{Current}\\
-	\textsc{UCLA - }Post-doctoral Scholar & \textsc{Mar 2016 -} \textit{Current}\\
+	\textsc{KamLAND (Kamioka Liquid Scintillator Antineutrino Detector)} -
+	\textit{University of Hawaii} & \textsc{2009 - 2016}\\
+	%Research Assistant, University of Hawaii & \textsc{Aug. 2009 - Apr. 2016}\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
-		%\textit{Post-doctoral Scholar, University of California, Los Angeles (UCLA)}
-		%\textit{University of California, Los Angeles (UCLA)}
 		\begin{itemize}
-			\item Mentored and worked with 2 undergraduate students to simulate
-				radiation shielding structures in \textsc{Geant4} to mitigate
+			\item Spearheaded development of novel directional neutrino
+				detection technique in scintillator and demonstrated with data
+				for the first time that this can be applied to conduct indirect
+				dark matter searches in scintillator; first ever physics
+				application of neutrino directionality in scintillator
+			\item Led unprecedented particle ID capability studies in
+				scintillator using track profile reconstruction techniques
+				and never before observed T2K events spilling into KamLAND
+			%\item Was responsible for high energy
+			%	($\gtrsim$\SI{1}{\giga\electronvolt}) energy calibration using
+			%	cosmic ray muons and applying this to neutrino analysis for
+			%	first time
+		\end{itemize}
+	\end{minipage}}\\
+	\addlinespace[5pt]
+	\textsc{Mini-TimeCube (World's Smallest Portable Neutrino Detector)} -
+	\textit{University of Hawaii} & \textsc{2009 - 2016}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\begin{itemize}
+			\item Led development of Geant4 detector simulation with team of 3
+				undergraduate students to conducted case studies of neutron
+				capture doping agents in solid scintillator. Simulation results
+				were later used to guide overall detector design during
+				construction
+			%\item Led critical role in directional neutrino/neutron
+			%	reconstruction algorithm
+			\item Was responsible for background studies associated with long
+				lived cosmogenic isotopes \ce{^{8}He}/\ce{^{9}Li} to
+				quantitatively determine effect on detector live time
+			%\item Spearheaded trade studies for \ce{Li}/\ce{B} neutron capture
+			%	dopants in scintillator
+		\end{itemize}
+	\end{minipage}}\\
+	\addlinespace[5pt]
+	\textsc{Hanohano (Deep Sea-based monolithic Scintillator Neutrino
+	Detector)} - \textit{University of Hawaii} & \textsc{2009 -
+	2010}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\begin{itemize}
+			\item Used CAD to design and assemble apparatus to measure light
+				output of various LAB based scintillators from ionizing
+				radiation as well as test light yield changes in extreme
+				electric potential gradients ($\SI{\sim
+				1}{\kilo\volt\per\centi\meter}$)
+			%\item Led critical role in directional neutrino/neutron
+			%	reconstruction algorithm
+			\item Operated, took data, and analyzed light transmissivity of LAB
+				based scintillator when put in near freezing temperatures and
+				high pressure environments (for potential deep sea deployment
+				scenarios) in custom made pressurizer chamber
+			%\item Spearheaded trade studies for \ce{Li}/\ce{B} neutron capture
+			%	dopants in scintillator
+		\end{itemize}
+	\end{minipage}}\\
+	\addlinespace[5pt]
+	%\textbf{CUORE (Cryogenic Underground Observatory for Rare Events)} & \textsc{Apr. 2016 -} \textit{Current}\\
+	%\textsc{CUORE (Cryogenic Underground Observatory for Rare Events)} - \textit{UCLA} & \textsc{Apr. 2016 -} \textit{Current}\\
+	\textsc{CUORE (Cryogenic Underground Observatory for Rare Events)} - \textit{UCLA} & \textsc{2016 -} \textit{Current}\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		\begin{itemize}
+			\item Spearheading development of precision $\alpha$ background
+				modeling in collaboration with a graduate student with goal for
+				further background reduction to cover inverted neutrino mass
+				hierarchy of $0\nu\beta\beta$ decay in \ce{^{130}Te}
+			\item Mentored and worked with 2 undergraduate students for
+				investigation of shielding structures to mitigate
 				$\gamma$/$\beta$ backgrounds for next generation
-				$0\nu\beta\beta$ searches requiring ultra-low backgrounds
-			\item Currently spearheading the development of a precision
-				$\alpha$ background model with goal for further background
-				reduction to reach sensitivity goal of covering the inverted
-				neutrino mass hierarchy of $0\nu\beta\beta$ decay in
-				\ce{^{130}Te}
+				$0\nu\beta\beta$ decay searches requiring ultra-low background
+				levels
 			%\item Implemented bolometer thermal model to create mock data for
 			%	first data taking
 		\end{itemize}
 	\end{minipage}}\\
-
-	\addlinespace[5pt]
-	%\textsc{Mini-TimeCube (World's Smallest Portable Neutrino Detector)} & \textsc{2009 - 2016}\\
-	\textsc{University of Hawaii at Manoa - }Research Assistant & \textsc{2009 - 2016}\\
-	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
-		%\textit{Research Assistant, University of Hawaii at Manoa}
-		%\textit{University of Hawaii at Manoa}
-		\begin{itemize}
-			\item Led development of \textsc{Geant4} detector simulation to
-				conducted case studies of neutron capture doping agents in
-				solid scintillator. Simulation results were later used to
-				oversee design during detector construction
-			%\item Led development of \textsc{Geant4} detector simulation with
-			%	team of 3 undergraduate students to conducted case studies of
-			%	neutron capture doping agents in solid scintillator. Simulation
-			%	results were later used to guide overall detector design during
-			%	construction
-			%\item Led critical role in directional neutrino/neutron
-			%	reconstruction algorithm
-			\item Was responsible for background simulation studies associated
-				with long lived cosmogenic isotopes \ce{^{8}He}/\ce{^{9}Li} to
-				quantitatively determine effect on detector live time
-			%\item Spearheaded trade studies for \ce{Li}/\ce{B} neutron capture
-			%	dopants in scintillator
-	%	\end{itemize}
-	%\end{minipage}}\\
-	%\textsc{KamLAND (Kamioka Liquid Scintillator Antineutrino Detector)} & \textsc{2009 - 2016}\\
-	%%Research Assistant, University of Hawaii & \textsc{Aug 20, 2009 - May 14, 2016}\\
-	%\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
-	%	%\textit{Research Assistant, University of Hawaii at Manoa}
-	%	\textit{University of Hawaii at Manoa}
-	%	\begin{itemize}
-			\item Was responsible for high energy ($\gtrsim
-				\SI{1}{\giga\electronvolt}$) energy calibration using cosmic
-				ray muons and applying this to neutrino analysis for first time
-			\item Spearheaded development of novel directional neutrino
-				detection technique in scintillator and demonstrated with data
-				for the first time that this can be applied to conduct indirect
-				dark matter searches in scintillator. First ever physics
-				application of neutrino directionaly in scintillator
-			\item Led unprecedented particle ID capability studies in
-				scintillator using track profile reconstruction techniques
-				using never before observed T2K events spilling into KamLAND
-		\end{itemize}
-	\end{minipage}}\\
 \end{tabularx}
+
 
 %----------------------------------------------------------------------------------------
 %	SKILLS 
@@ -201,7 +219,6 @@
 \section{Skills}
 
 \noindent\begin{tabularx}{\linewidth}{@{}rl}
-	\addlinespace[5pt]
 	Software/Tools: & \textsc{Geant4}, \textsc{ROOT}, \textsc{Pads}, \textsc{AutoCAD}\\
 	Programming Languages: & Proficient in C, C++, Python, Fortran, Mathematica, BASH\\
 	Human Languages: & English (native), Japanese/Korean (trilingual proficiency)\\
@@ -215,8 +232,8 @@
 \section{Leadership}
 
 \noindent\begin{tabularx}{\linewidth}{@{}lR@{}}
-	\addlinespace[5pt]
-	\textsc{Mentor}, \textit{UCLA} & \textsc{Mar 2016 -} \textit{Current}\\
+	%\textsc{Mentor}, \textit{UCLA} & \textsc{Apr 2016 -} \textit{Current}\\
+	\textsc{Mentor} - \textit{UCLA} & \textsc{2016 -} \textit{Current}\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 		\begin{itemize}
 			\item Taught weekly \textsc{Geant4} tutorials to \num{3} PhD-level
@@ -231,7 +248,7 @@
 
 	\addlinespace[5pt]
 	%\textsc{Aug 2007 - May 2009} & Teaching Assistant, University of Hawaii at Manoa\\
-	\textsc{Teaching Assistant}, \textit{University of Hawaii at Manoa} & \textsc{2007 - 2009}\\
+	\textsc{Teaching Assistant} - \textit{University of Hawaii} & \textsc{2007 - 2009}\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 		\begin{itemize}
 			\item Planned classwork and taught 2 weekly undergraduate Physics
@@ -260,10 +277,9 @@
 
 %\noindent\begin{tabular}{rp{10.3cm}}	
 	\noindent\begin{tabularx}{\linewidth}{@{}lR@{}}	
-	\addlinespace[5pt]
 	%\textsc{PhD, Experimental Neutrino Physics} & \textsc{Aug. 20, 2007 - May 14, 2016}\\
-	%\textsc{PhD, Experimental Neutrino Physics} & \textsc{2016}\\
-	\textsc{PhD, Experimental Particle Physics} & \textsc{2016}\\
+	\textsc{PhD, Experimental Neutrino Physics} & \textsc{May 2016}\\
+	%\textsc{PhD, Experimental Particle Physics} & \textsc{2016}\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 		\begin{itemize}
 			\item[] GPA: 4.0/4.0, University of Hawaii at Manoa
@@ -323,7 +339,7 @@
 
 \noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}r@{}}
 \addlinespace[5pt]
-Invited Talk (Tentative): \textsc{Monte Carlo Tools in CUORE} \newline Durham University, UK - Monte Carlo Tools for Beyond the Standard Model Physics & Apr 2018 \\
+Invited Talk: \textsc{Monte Carlo Tools in CUORE} \newline Durham University, UK - Monte Carlo Tools for Beyond the Standard Model Physics & Apr 2018 \\
 
 \addlinespace[5pt]
 Seminar: \textsc{CUORE: A Bolometric Search for Lepton Number Violation} \newline Argonne National Laboratory & Feb 2018 \\
@@ -417,54 +433,230 @@ Talk (Student Presentation): \textsc{How to solve $\theta_{23}$ degeneracy} \new
 \clearpage
 \section{Statement of Research}
 
-In have a strong background in radiation/particle interaction simulations and
-how they affect real particle detector hardware. My expertise also
-involves processing and analyzing large physics data sets using analysis
-tools such as ROOT and Python. I have experience working in 3 multinational
-collaboration experiments where I spearheaded independent research initiatives
-and successfully interfaced my original work with the larger team. Some of my
-past accomplishments that I take pride in include development of unprecedented
-particle detection algorithms that I project will open whole new physics
-searches by the experiments that I collaborated with.
+%In have a strong background in radiation/particle interaction simulations and
+%how they affect real particle detector hardware. My expertise also
+%involves processing and analyzing large physics data sets using analysis
+%tools such as ROOT and Python. I have experience working in 3 multinational
+%collaboration experiments where I spearheaded independent research initiatives
+%and successfully interfaced my original work with the larger team. Some of my
+%past accomplishments that I take pride in include development of unprecedented
+%particle detection algorithms that I project will open whole new physics
+%searches by the experiments that I collaborated with.
+%
+%I have worked as the lead \textsc{Geant4} simulation designer for the
+%mini-TimeCube experiment at University of Hawaii at Manoa from August 2009 to
+%March 2016. Mini-TimeCube is an ambitious project to build the world's smallest
+%portable neutrino detector. In this project, I mentored 3 undergraduate
+%students and worked in collaboration with them to conduct case studies for
+%optimizing the detector design, test candidate neutron capture doping elements
+%in plastic scintillator, and simulate the response of the multi-channel-plate
+%(MCP) photomultiplier tubes (PMTs) deployed in the detector. The studies were
+%used during construction of the detector, and to develop directional particle
+%detection algorithms that are now being tested in analyses of neutrons from
+%test sources as well as neutrinos from nuclear reactors at the National
+%Institute of Standards and Technology (NIST). I have also conducted simulation
+%studies for cosmic-ray muons and long-lived cosmogenic background isotopes such
+%as \ce{^{8}He} and \ce{^{9}Li}. These backgrounds are extremely difficult to
+%tag due to their long life-time ($\gtrsim \si{\second}$ scale) and travel
+%distances. The studies have been vital to the project.
+%%Working with the
+%%mini-TimeCube project has further involved designing and fabricating PCB boards
+%%as well as contributing to the FPGA firmware for the readout electronics.
+%A paper summarizing our accomplishments was published in 2016 (V. A. Li et al.
+%Invited Article: miniTimeCube. Rev. Sci. Instrum., 87(2):021301, 2016,
+%1602.01405).
+%
+%I have been involved with the CUORE (Cryogenic Underground Observatory for Rare
+%Events) experiment at the University of California, Los Angeles since March of
+%2016. The main objective of the CUORE experiment is to hunt for lepton number
+%violation by observing neutrinoless double beta ($0\nu\beta\beta$) decay in
+%\ce{^{130}Te}. CUORE employs an almost 20 fold increase in detector mass
+%compared to its previously successful pilot experiment CUORE-0. My work in the
+%collaboration currently involves development of a \textsc{Geant4} based
+%precision background model together with a graduate student colleague to better
+%understand the radioactive contaminations in the detector. The energy spectrum
+%of the backgrounds in the so called $\alpha$ region ($\gtrsim
+%\SI{2.7}{\mega\electronvolt}$) exhibit peculiar features that, if understood
+%correctly, will better explain the types of contamination sources and their
+%distributions in the materials comprising the experiment. This can help us to
+%better understand our backgrounds and extrapolate this new knowledge to the
+%energy region of interest (\SIrange{2465}{2575}{\kilo\electronvolt}) for
+%$0\nu\beta\beta$ decay in \ce{^{130}Te}. I have previously also mentored 2
+%undergraduate students and worked together with them to simulate and
+%investigate new radioactivity shielding schemes for further background
+%reduction in future $0\nu\beta\beta$ decay experiments that will cover the
+%inverted hierarchy region of the effective Majorana neutrino mass. A paper for
+%our first $0\nu\beta\beta$ analysis using CUORE data was published in March
+%2018 (https://arxiv.org/abs/1710.07988).
+%
+%While working at the University of Hawaii at Manoa, I also developed a novel
+%directional event reconstruction algorithm for high-energy
+%$\gtrsim$\si{\giga\electronvolt} scale neutrinos while working with KamLAND
+%(Kamioka Liquid Scintillation Antineutrino Detector), and demonstrated with
+%data that this technique can be applied to indirect dark matter search by
+%looking for a directional flux of neutrinos from the core of the Sun and Earth.
+%Studies done with Monte Carlo suggest that the accuracy of deducing the
+%neutrino direction using this new method is better than that of water-Cherenkov
+%detectors (the conventional method for directional neutrino detection) by
+%$\sim$\SI{10}{\degree} in this energy regime. This method was verified using
+%never before observed neutrino events spilling into KamLAND from the T2K
+%neutrino beam-line. The results were consistent with expectation. According to
+%my knowledge, this is the first ever physics application of neutrino
+%directionality in scintillator.
+%
+%%My work with KamLAND further involved demonstration of 3-dimensional
+%%topological event imaging techniques, originally developed in the LENA (Low
+%%Energy Neutrino Astronomy) collaboration, using data for the first time. The
+%%$\sim$\SI{3.5}{\nano\second} timing resolution of the PMTs (photomultiplier
+%%tubes) employed in KamLAND are not good enough to do a detailed imaging of all
+%%the individual tracks in a neutrino event. Nevertheless
+%%$\gtrsim$\si{\giga\electronvolt} muon tracks and high enough energy tracks in a
+%%neutrino event were imaged as well as the overall direction of the final state
+%%particles to resolve the incoming neutrino direction. In addition
+%%$\frac{\mathrm{d}E}{\mathrm{d}x}$ profiles were investigated to perform
+%%unprecedented particle ID studies in scintillator at these energies. A paper
+%%employing these techiques I developed to conduct an indirect dark matter search
+%%is currently under preparation.
+%
+%%In order to promote more dialogue and efficient teamwork, I have also organized
+%%and led weekly Physics paper discussion group sessions involving both
+%%undergraduate and graduate students in our laboratory at UCLA. These sessions
+%%have helped us not only to know our own experiment better, but to increase our
+%%common understanding of the overall field of experimental $0\nu\beta\beta$
+%%decay search. Ultimately this has been invaluable for our team to increase
+%%our teamwork and productivity, and become a valuable contributor to the collaboration.
+%%A paper for our first $0\nu\beta\beta$ analysis using CUORE data
+%%was submitted for publication to PRL in late 2017, and is currently under
+%%review (https://arxiv.org/abs/1710.07988).
+%
+%%The focus of my work at the University of Hawaii has been in the directional
+%%detection of high energy neutrinos in scintillator and its application toward
+%%indirect dark matter searches, directional geo-neutrino measurements, and
+%%anti-nuclear proliferation techniques that involve locating the position of the
+%%neutrino source.
+%%My main interest has been in detector development and novel techniques to
+%%search for previously unexplored phase-space regions in neutrino physics. My
+%%main interest and past research experience has been in detector development
+%%and developing novel techniques to open new methods of exploration in neutrino
+%%physics. 
+%
+%%In addition, I have also worked on 3 other projects: the
+%%\SI{1}{\kilo\tonne} liquid scintillator neutrino detection experiment KamLAND
+%%(Kamioka Liquid Scintillator Antineutrino Detector) in Kamioka, Japan, a
+%%portable \SI{2.2}{\liter} plastic scintillator neutrino detector called the
+%%mini-TimeCube, and scintillator R\&D for a future \SI{10}{\kilo\tonne}-scale
+%%deep-sea based neutrino detector HanoHano.
+%%
+%%My work in KamLAND has involved developing directional event reconstruction
+%%methods for high-energy $\gtrsim$\si{\giga\electronvolt} scale neutrinos and
+%%applying this to conduct an indirect dark matter search by looking at an excess
+%%flux of neutrinos from the core of the Sun and Earth. Studies done with Monte
+%%Carlo suggest that the accuracy of reconstructing the neutrino direction using
+%%this method is better than that of water-Cherenkov detectors by
+%%$\sim$\SI{10}{\degree} for this energy regime. This method was tested against
+%%initial events spilling into KamLAND from the T2K neutrino beam-line and the
+%%results were consistent with what was expected. I believe this is the first
+%%ever physics application of neutrino directionality in a scintillator
+%%experiment.
+%
+%%Finally, my work in scintillator R\&D for HanoHano, a proposed
+%%\SI{10}{\kilo\tonne}-scale deep-sea based neutrino detector, involved designing
+%%and building apparatuses using CAD for measuring light output of Linear
+%%alkylbenzene (LAB) based liquid scintillators when put in large electric
+%%potential gradients as well as testing their light transmissivities under
+%%extreme temperatures and pressures such as those found in deep-sea
+%%environments. This project included mentoring an undergraduate student on
+%%techniques for shielding electronic apparatuses and working with another
+%%graduate student on designing and operating the cold high pressure environment
+%%device.
+%
+%In summary my strong background in radiation/particle interaction simulations
+%and how they affect real particle detectors, as well as, my comfort in using
+%tools to analyze large physics data sets makes me a strong candidate for your
+%position. Also I would like to reemphasize my previous accomplishments in
+%independently creating novel particle detection techniques to solve complex
+%problems and interface my original work with a large team of collaborators. I
+%believe I can make a significant impact in your team.
 
-I have worked as the lead \textsc{Geant4} simulation designer for the
-mini-TimeCube experiment at University of Hawaii at Manoa from August 2009 to
-March 2016. Mini-TimeCube is an ambitious project to build the world's smallest
-portable neutrino detector. In this project, I mentored 3 undergraduate
-students and worked in collaboration with them to conduct case studies for
-optimizing the detector design, test candidate neutron capture doping elements
-in plastic scintillator, and simulate the response of the multi-channel-plate
-(MCP) photomultiplier tubes (PMTs) deployed in the detector. The studies were
-used during construction of the detector, and to develop directional particle
-detection algorithms that are now being tested in analyses of neutrons from
-test sources as well as neutrinos from nuclear reactors at the National
-Institute of Standards and Technology (NIST). I have also conducted simulation
-studies for cosmic-ray muons and long-lived cosmogenic background isotopes such
-as \ce{^{8}He} and \ce{^{9}Li}. These backgrounds are extremely difficult to
-tag due to their long life-time ($\gtrsim \si{\second}$ scale) and travel
-distances. The studies have been vital to the project.
-%Working with the
-%mini-TimeCube project has further involved designing and fabricating PCB boards
-%as well as contributing to the FPGA firmware for the readout electronics.
-A paper summarizing our accomplishments was published in 2016 (V. A. Li et al.
-Invited Article: miniTimeCube. Rev. Sci. Instrum., 87(2):021301, 2016,
-1602.01405).
+
+
+
+
+I developed a novel directional event reconstruction algorithm for high-energy
+$\gtrsim$\si{\giga\electronvolt} scale neutrinos while working with KamLAND
+(Kamioka Liquid Scintillation Antineutrino Detector), and demonstrated with
+data for the first time that this technique can be applied to indirect dark
+matter searches by looking for a directional flux of neutrinos from the core of
+the Sun and Earth. Studies done with Monte Carlo suggest that the accuracy of
+deducing the neutrino direction using this new method is better than that of
+water-Cherenkov detectors (the conventional method for directional neutrino
+detection) by $\sim$\SI{10}{\degree} in this energy regime. This method was
+verified using never before observed neutrino events spilling into KamLAND from
+the T2K neutrino beam-line. The results were consistent with expectation.
+According to my knowledge, this is the first ever physics application of
+neutrino directionality in scintillator.
+
+My work with KamLAND further involved demonstration of 3-dimensional
+topological event imaging techniques, originally developed in the LENA (Low
+Energy Neutrino Astronomy) collaboration, but applying this to data for the
+first time. The $\sim$\SI{3.5}{\nano\second} timing resolution of the PMTs
+(photomultiplier tubes) employed in KamLAND are not good enough to do a
+detailed imaging of all the individual final state particle tracks in a
+neutrino event. Nevertheless $\gtrsim$\si{\giga\electronvolt} muon tracks and
+high enough energy tracks in a neutrino event were imaged as well as the
+overall average direction of the final state particles to resolve the incoming
+neutrino direction. In addition $\frac{\mathrm{d}E}{\mathrm{d}x}$ profiles were
+investigated to perform unprecedented particle ID studies in scintillator at
+these energies. A paper employing these techniques I developed to conduct an
+indirect dark matter search is currently under preparation.
+
+In addition, I have worked as the lead Geant4 simulation designer for the
+mini-TimeCube collaboration at University of Hawaii at Manoa. mini-TimeCube is
+an ambitious project to build the world's smallest portable neutrino detector.
+In this project, I mentored 3 undergraduate students and worked in
+collaboration with them to conduct case studies for optimizing the detector
+design, test candidate neutron capture doping elements in plastic scintillator,
+and simulate the response of the multi-channel-plate (MCP) PMTs deployed in the
+detector. The studies were used during construction of the detector, and to
+develop directional algorithms that are now being tested in analyses of
+neutrons from test sources as well as neutrinos from nuclear reactors at NIST.
+%I have also conducted simulation studies for cosmic-ray muons and long-lived
+%cosmogenic background isotopes such as \ce{^{8}He} and \ce{^{9}Li}. These
+%backgrounds are extremely difficult to tag due to their long life-time ($>
+%\sim\si{\second}$ scale) and travel distances. The studies have been vital to
+%the project. 
+Working with the mini-TimeCube project has further involved designing and
+fabricating PCB boards as well as contributing to the FPGA firmware for the
+readout electronics. A paper summarizing our accomplishments was published in
+2016 (V. A. Li et al. Invited Article: miniTimeCube. Rev. Sci. Instrum.,
+87(2):021301, 2016, 1602.01405).
+
+My work in scintillator R\&D for HanoHano, a proposed
+\SI{10}{\kilo\tonne}-scale deep-sea based neutrino detector, involved designing
+and building apparatuses using CAD for measuring light output of Linear
+alkylbenzene (LAB) based liquid scintillators when put in large electric
+potential gradients as well as testing their light transmissivities under
+extreme temperatures and pressures such as those found in deep-sea
+environments. This project included mentoring an undergraduate student on
+techniques for shielding electronic apparatuses and working with another
+graduate student on designing and operating the cold high pressure environment
+device.
 
 I have been involved with the CUORE (Cryogenic Underground Observatory for Rare
-Events) experiment at the University of California, Los Angeles since March of
-2016. The main objective of the CUORE experiment is to hunt for lepton number
-violation by observing neutrinoless double beta ($0\nu\beta\beta$) decay in
-\ce{^{130}Te}. CUORE employs an almost 20 fold increase in detector mass
-compared to its previously successful pilot experiment CUORE-0. My work in the
-collaboration currently involves development of a \textsc{Geant4} based
-precision background model together with a graduate student colleague to better
+Events) experiment at the University of California, Los Angeles (UCLA) since
+early 2016. The main objective of the CUORE experiment is to search for
+Majorana neutrinos by observing neutrinoless double beta ($0\nu\beta\beta$)
+decay in \ce{^{130}Te}. CUORE employs an almost 20 fold increase in detector
+mass compared to its previously successful pilot experiment CUORE-0. My work in
+the collaboration currently involves development of a precision $\alpha$
+background model together with a graduate student colleague to better
 understand the radioactive contaminations in the detector. The energy spectrum
 of the backgrounds in the so called $\alpha$ region ($\gtrsim
 \SI{2.7}{\mega\electronvolt}$) exhibit peculiar features that, if understood
 correctly, will better explain the types of contamination sources and their
-distributions in the materials comprising the experiment. This can help us to
-better understand our backgrounds and extrapolate this new knowledge to the
-energy region of interest (\SIrange{2465}{2575}{\kilo\electronvolt}) for
+physical distributions in the materials comprising the experiment. This can
+help us to better understand our backgrounds and extrapolate this understanding
+to the energy region of interest (\SIrange{2465}{2575}{\kilo\electronvolt}) for
 $0\nu\beta\beta$ decay in \ce{^{130}Te}. I have previously also mentored 2
 undergraduate students and worked together with them to simulate and
 investigate new radioactivity shielding schemes for further background
@@ -472,35 +664,6 @@ reduction in future $0\nu\beta\beta$ decay experiments that will cover the
 inverted hierarchy region of the effective Majorana neutrino mass. A paper for
 our first $0\nu\beta\beta$ analysis using CUORE data was published in March
 2018 (https://arxiv.org/abs/1710.07988).
-
-While working at the University of Hawaii at Manoa, I also developed a novel
-directional event reconstruction algorithm for high-energy
-$\gtrsim$\si{\giga\electronvolt} scale neutrinos while working with KamLAND
-(Kamioka Liquid Scintillation Antineutrino Detector), and demonstrated with
-data that this technique can be applied to indirect dark matter search by
-looking for a directional flux of neutrinos from the core of the Sun and Earth.
-Studies done with Monte Carlo suggest that the accuracy of deducing the
-neutrino direction using this new method is better than that of water-Cherenkov
-detectors (the conventional method for directional neutrino detection) by
-$\sim$\SI{10}{\degree} in this energy regime. This method was verified using
-never before observed neutrino events spilling into KamLAND from the T2K
-neutrino beam-line. The results were consistent with expectation. According to
-my knowledge, this is the first ever physics application of neutrino
-directionality in scintillator.
-
-%My work with KamLAND further involved demonstration of 3-dimensional
-%topological event imaging techniques, originally developed in the LENA (Low
-%Energy Neutrino Astronomy) collaboration, using data for the first time. The
-%$\sim$\SI{3.5}{\nano\second} timing resolution of the PMTs (photomultiplier
-%tubes) employed in KamLAND are not good enough to do a detailed imaging of all
-%the individual tracks in a neutrino event. Nevertheless
-%$\gtrsim$\si{\giga\electronvolt} muon tracks and high enough energy tracks in a
-%neutrino event were imaged as well as the overall direction of the final state
-%particles to resolve the incoming neutrino direction. In addition
-%$\frac{\mathrm{d}E}{\mathrm{d}x}$ profiles were investigated to perform
-%unprecedented particle ID studies in scintillator at these energies. A paper
-%employing these techiques I developed to conduct an indirect dark matter search
-%is currently under preparation.
 
 %In order to promote more dialogue and efficient teamwork, I have also organized
 %and led weekly Physics paper discussion group sessions involving both
@@ -543,24 +706,20 @@ directionality in scintillator.
 %ever physics application of neutrino directionality in a scintillator
 %experiment.
 
-%Finally, my work in scintillator R\&D for HanoHano, a proposed
-%\SI{10}{\kilo\tonne}-scale deep-sea based neutrino detector, involved designing
-%and building apparatuses using CAD for measuring light output of Linear
-%alkylbenzene (LAB) based liquid scintillators when put in large electric
-%potential gradients as well as testing their light transmissivities under
-%extreme temperatures and pressures such as those found in deep-sea
-%environments. This project included mentoring an undergraduate student on
-%techniques for shielding electronic apparatuses and working with another
-%graduate student on designing and operating the cold high pressure environment
-%device.
+As a postdoctoral researcher at Lawrence Livermore National Laboratory, I would
+like to continue my research in the field of (anti)neutrino physics. I am
+particularly interested in the directional neutrino detection capability of
+gadolinium-doped (Gd) medium and the integration of fast timing optical sensors
+such as LAPPDs towards unprecedented high-resolution event reconstruction
+capabilities. My work in KamLAND and mini-TimeCube involved development of
+novel topological event reconstruction methods using the readout of
+first-photon hits in PMTs ($\SI{\sim 3.5}{\nano\second}$ resolution) and MCPs
+($\lesssim \SI{50}{\pico\second}$ resolution). The project in your team is a
+natural extension of my previous endeavors and it would be a dream come true to
+play a critical role in the development of these technologies toward future
+applications such as THEIA. I believe I can make a significant impact in your
+team.
 
-In summary my strong background in radiation/particle interaction simulations
-and how they affect real particle detectors, as well as, my comfort in using
-tools to analyze large physics data sets makes me a strong candidate for your
-position. Also I would like to reemphasize my previous accomplishments in
-independently creating novel particle detection techniques to solve complex
-problems and interface my original work with a large team of collaborators. I
-believe I can make a significant impact in your team.
 
 %%----------------------------------------------------------------------------------------
 %%   STATEMENT OF TEACHING PHILOSOPHY AND EXPERIENCE
