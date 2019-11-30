@@ -1,0 +1,63 @@
+Title: Post-doctoral researcher (January 1, 2019 - Present)
+Employer: UC Berkeley
+Employer Address: LeConte Hall #319, Berkeley, CA, 94720-7300, USA
+Supervisor: Yury Kolomensky
+Supervisor phone: +1-510-642-9619
+Salary: $56500.00/year
+Duties, accomplishments, and related skills:
+* Modeling and calibration of Uranium/Thorium decay radiation induced energy
+  depositions in detector materials.
+* Data analysis lead for energy spectrum of radioactive isotope alpha decays.
+
+Title: Post-doctoral researcher (June 18, 2018 - Present)
+Employer: UC Berkeley
+Employer Address: Leconte Hall #317A, Berkeley, CA, 94720-7300, USA
+Supervisor: Gabriel Orebi Gann
+Supervisor phone: +1-510-642-1571
+Salary: $56500.00/year
+Duties, accomplishments, and related skills:
+* Lead researcher for characterization of micro-physical optical properties of
+  wavelength shifter thin films.
+* Supervisor for GEANT4 modeling of photon interactions with wavelength
+  shifters and detector materials.
+
+Title: Post-doctoral researcher (March 15, 2016 - June 15, 2018)
+Employer: UCLA
+Employer Address: 475 Portola Plaza #5-136, Los Angeles, CA 90095-1547, USA
+Supervisor: Huan Z. Huang
+Supervisor phone: +1-310-825-9297
+Salary: $54,309/year
+Duties, accomplishments, and related skills:
+* Lead developer of precision radioactive alpha decay spectrum model to improve
+  characterization of backgrounds in neutrinoless double beta decay physics
+  experiment.
+* Mentor for 2 PhD students to simulate radiation shielding structures to
+  mitigate gamma/beta backgrounds for next generation neutrinoless double beta
+  decay experiments requiring ultra-low radiation environments.
+
+Title: Research assistant (August 20, 2009 - May 14, 2016)
+Employer: University of Hawaii
+Employer Address: 2505 Correa Rd. #327, Honolulu, Hawaii 96822, USA
+Supervisor: John G. Learned
+Supervisor phone: +1-808-956-2964
+Salary: $22,140/year
+Duties, accomplishments, and related skills:
+* Spearheaded development of novel directional neutrino detection algorithms in
+  scintillator and demonstrated with data for the first time that this can be
+  applied to conduct indirect dark matter searches. First ever physics
+  application of neutrino directionality in scintillator.
+* Lead developer of detector simulation code to conducted case studies of
+  neutron capture doping agents in solid scintillator. Simulation results were
+  later used to oversee detector design and construction.
+
+Title: Teaching assistant (August 20, 2007 - May 14, 2009)
+Employer: University of Hawaii
+Employer Address: 2505 Correa Rd. #416, Honolulu, Hawaii 96822, USA
+Supervisor: Frederick A. Harris
+Supervisor phone: +1-808-956-2940
+Salary: $22,140/year
+Duties, accomplishments, and related skills:
+* Planned course work and taught 2 weekly physics laboratory curriculum for
+  classes of over 20 students each for 3 semesters.
+* Received especially positive reviews for clarity of explanation of material,
+  and teaching style.

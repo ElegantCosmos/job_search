@@ -1,0 +1,40 @@
+United States Department of the Navy                      October 12, 2019
+Announcement number DE-10442434-19-DBR
+Control number 526444300
+
+
+
+Dear Team Hiring Manager,
+
+As a motivated physicist, I am interested in joining your team in the United
+States Department of the Navy to contribute toward our nation's security. I
+would like to apply for the position.
+
+I am currently a post-doctoral scholar at the University of California,
+Berkeley with expertise in data analysis, and computational physics
+simulations working in the area of particle/nuclear physics.
+
+With regard to my ability to meet specific requirements of this job:
+* Education: PhD in experimental high energy particle physics (2016) with
+  emphasis on data analysis and algorithm software development in
+  Python/C++/ROOT for novel particle detection technologies. Double BS degree in
+  Mathematics/Physics.
+* 8 years of experience in large-scale analytical/statistical data analysis
+	and algorithm software development.
+* Extensive experience in particle/nuclear physics and modeling/simulation.
+* Innovative problem solving skills with the ability to interface original
+	work with larger collaboration.
+
+I would appreciate an opportunity to meet and discuss my application at an
+interview. I have also sent my resume for your consideration. Please feel free
+to let me know if you have any questions.
+
+Thank you for your time.
+
+Sincerely,
+
+Michinari Sakai
+1235 Solano Ave Apt 10
+Albany, CA 94706 USA
+Phone: +1-808-206-4357
+Email: michsakai@gmail.com

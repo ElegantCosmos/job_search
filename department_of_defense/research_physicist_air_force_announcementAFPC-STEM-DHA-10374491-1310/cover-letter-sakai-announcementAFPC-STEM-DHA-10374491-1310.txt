@@ -1,0 +1,46 @@
+United States Department of the Air Force                      October 19, 2019
+Announcement number AFPC-STEM-DHA-10374491-1310
+Control number 518811500
+
+
+
+Dear Team Hiring Manager,
+
+As a motivated physicist, I am interested in joining your team in the United
+States Department of the Air Force to contribute toward our nation's security. I
+would like to apply for the position.
+
+I am currently a post-doctoral researcher at the University of California,
+Berkeley with an emphasis on photon interactions with wavelength shifting
+materials in a vacuum environment.
+
+With regard to my ability to meet specific requirements of this job:
+* Education: PhD in experimental particle physics (2016) with
+  emphasis on photon/radiation interactions in solid/liquid scintillators and
+  analysis/algorithm software development in C++/ROOT/Python.
+* Knowledge of optical technologies: Current lead researcher investigating
+  photon absorption in optical wavelength shifting materials and in vacuum
+  environments. Graduate work focused on optical imaging and event
+  reconstruction of particle interactions in scintillators.
+* Experience in optical scattering and transmission: 8 years of experience
+  modeling optical properties of materials in Geant4, 2 years of experience
+  with designing, building, and operating measurement apparatus involving
+  optical properties of solid/liquid wavelength shifters and scintillators.
+* Familiarity with software to calibrate and analyze spectral data: Written
+  software for analyzing response of materials to photons in spectral range of
+  128-400 nm. 8 years of experience writing/managing data analysis software in
+  C/C++/ROOT/Python. 
+
+I would appreciate an opportunity to meet and discuss my application at an
+interview. I have also sent my resume for your consideration. Please feel free
+to let me know if you have any questions.
+
+Thank you for your time.
+
+Sincerely,
+
+Michinari Sakai
+1235 Solano Ave Apt 10
+Albany, CA 94706 USA
+Phone: +1-808-206-4357
+Email: michsakai@gmail.com

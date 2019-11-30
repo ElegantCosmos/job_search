@@ -1,0 +1,123 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+\usepackage{fontspec}
+%\setmainfont{Fontin} % Main document font
+%\usepackage{fontawesome}
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+\setmainfont{Times New Roman} % Main document font
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{siunitx}
+\DeclareSIUnit\year{yr}
+\usepackage[version=4]{mhchem}
+\usepackage{tabularx}
+\setlength{\tabcolsep}{12pt}
+
+\usepackage{ragged2e}
+
+% personal data
+\name{Michinari}{Sakai}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{1235 Solano Ave Apt 10}{Albany, CA 94706}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{808-206-4357}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{michsakai@gmail.com}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{SNOLAB}{Creighton Mine \#9\\1039 Regional Road 24\\Lively, ON P3Y 1N2\\Canada}
+\recipient{Applied Physics Laboratory}{Johns Hopkins University\\Job ID: 22143}
+\date{November 23, 2019}
+\opening{Dear Team Hiring Manager,}
+%\closing{Best wishes,}
+\closing{Thank you for your time,}
+%\enclosure[Attached]{curriculum vit\ae{}, research statement, publication list, list of referees}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+\justifying
+I am interested in joining your team as a Weapon System Applied Physicist to
+contribute toward modeling and evaluating the performance of intercontinental
+ballistic missiles. I would like to apply for position ID 22143.
+
+I am currently a post-doctoral researcher at the University of California,
+Berkeley with expertise in computational physics simulations and large-scale
+data analysis working in the field of particle/nuclear physics.
+
+With regard to my ability to meet specific requirements of this job:\\
+%\noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}@{}}
+\noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}@{}}
+	\textbf{Education:} PhD in experimental physics (2016) with
+	emphasis on computational physics modeling/simulations, data analysis, and
+	algorithm development.\\
+	\textbf{Skill in statistical estimation and physics-based modeling:} Over 8
+	years of experience analyzing large-scale simulated/real data using
+	statistical analysis tools in ROOT/Python. Typical work involves
+	uncertainty analysis, trade studies, sensitivity studies.\\
+	\textbf{Skill in scientific programming:} Over 9 years of experience
+	with C/C++/ROOT, 4 years of experience with Python and FORTRAN working on
+	data analysis and algorithm development for physics experiments.\\
+	\textbf{written/oral communication skills:} Contributed work published
+	in various journals. Talks given at institutions such as Lawrence Livermore
+	National Laboratory, Sanford Underground Research Facility, Fermilab,
+	Argonne National Laboratory. Mentored PhD-level students at UC
+	Berkeley/UCLA and increased productivity by organizing group initiatives.\\
+	\textbf{Collaborate effectively with staff, collaborators and sponsors:}
+	Worked with 3 multi-national collaborations of physicists and engineers in
+	Japan, Italy, and US. Contributed independent original work to specific
+	area of research within collaborations.\\
+	\textbf{Willing/able to travel:} Yes.\\
+	\textbf{Able to obtain interim Secret level security clearance by start date, and ultimately obtain final Top Secret level clearance:} Yes.\\
+\end{tabularx}
+
+I would appreciate an opportunity to meet and discuss my application at an
+interview. I have also sent my resume for your consideration. Please feel free
+to let me know if you have any questions.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.

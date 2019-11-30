@@ -1,0 +1,216 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[12pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%\usepackage{fontspec}
+%\setmainfont{Fontin} % Main document font
+%\usepackage{fontawesome}
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75,margin=0.8in]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+\usepackage{siunitx}
+\DeclareSIUnit\year{yr}
+\usepackage[version=4]{mhchem}
+\usepackage{tabularx}
+\setlength{\tabcolsep}{12pt}
+\usepackage{amssymb}
+
+\patchcmd{\makeletterhead}
+  {\begin{minipage}[t]{.5\textwidth}}
+  {\begin{minipage}[t]{.7\textwidth}}
+  {}
+  {}
+
+% personal data
+\name{Michinari}{Sakai}
+\title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{475 Portola Plaza \#5-123B}{Los Angeles, CA 90095-1547}{USA}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+1~(808)~206~4357}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{michsakai@ucla.edu}                               % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{SNOLAB}{Creighton Mine \#9\\1039 Regional Road 24\\Lively, ON P3Y 1N2\\Canada}
+\recipient{Design Physics Division}
+{Weapons and Complex Integration (WCI) Directorate\\Lawrence Livermore National Laboratory}
+\date{May 12, 2018}
+\opening{Dear Design Physics Division, Weapons and Complex Integration (WCI) Directorate;}
+%\closing{Best wishes,}
+\closing{Thank you for your consideration and time,}
+%\enclosure[Attached]{curriculum vit\ae{}, research statement, publication list, list of referees}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+As a budding and ambitious physicist, I am extremely interested in the
+Computational Physicist position in the Design Physics Division within the
+Weapons and Complex Integration (WCI) Directorate, Job ID \#103186. I would
+like to apply for the position.
+
+Having spent much of my adolescent life between \num{1994} to \num{2005} in
+South Korea, I witnessed first hand what it is like to live next to a communist
+regime in times of both peace and stability as well as tension in the midst of
+potential war. I strongly believe it is imperative that the United States be at
+the top of its capability in understanding and exercising responsible
+stewardship of its nuclear weapons capabilities.
+
+%My experience involves developing novel event track reconstruction and particle
+%ID techniques in monolithic scintillator (anti)neutrino detectors. Through my
+%work, I single handedly opened the doors to a never before explored capability
+%of scintillator detectors to conduct indirect dark matter
+%searches by looking for directional neutrino signals from the core of the Sun
+%and Earth. According to my understanding, my work is the first ever physics
+%application of directional (anti)neutrino reconstruction in scintillator. A
+%paper for this is currently under preparation.
+
+%I received my Ph.D. in experimental neutrino physics from the University of
+%Hawaii at Manoa in May of 2016. During my graduate studies, I worked on event
+%track reconstruction and particle ID techniques in KamLAND (Kamioka Liquid
+%Scintillator Antineutrino Detector), a monolithic liquid scintillator neutrino
+%detector in Kamioka, Japan. Through my work, I single handedly opened the doors
+%to a never before explored capability of scintillator detectors to conduct
+%indirect dark matter searches by looking for directional neutrino signals from
+%the core of the Sun and Earth. According to my understanding, my work is the
+%first ever physics application of directional neutrino reconstruction in
+%scintillator. A paper for this is currently under preparation.
+%
+%Nevertheless, topological event reconstruction in scintillator is fundamentally
+%limited because the reconstruction is done using the smeared information of
+%isotropically emitted scintillation photons collected by photomultiplier tubes
+%(PMTs) along the perimeter of the detector volume. Liquid Argon
+%Time-Projection-Chamber (LArTPC) technology that will be used by the DUNE (Deep
+%Underground Neutrino Experiment) detector at Sanford Lab is the next
+%generation endeavor to employ topological event imaging at an unprecedented
+%level of precision, using the ability to drift ionization charge to a read-out
+%plane. Although there has been much effort to demonstrate the feasibility of
+%the detector technology itself, development of reliable event imaging
+%algorithms will be crucial to the success of DUNE. I believe that my experience
+%with topological event imaging in an extremely difficult medium, such as
+%scintillator, puts me in a unique position to play a leading role in the effort
+%to develop reliable reconstruction algorithms in LArTPCs.
+
+%In addition, throughout my academic career, I have been heavily involved in
+%teaching and mentoring students. My philosophy for teaching is motivation
+%through curiosity and mastering through repetition. When teaching at the
+%undergraduate level, it is especially important to never get bogged down by the
+%equation or numbers. When I begin a class or introduce a new concept to
+%students, I never begin with equations. I always first show them the experiment
+%itself or introduce the context in an illustrative way. This is to engage the
+%students' interest and entice their curiosity to develop a long lasting
+%motivation before starting to learn. Repetition is the key to mastering a
+%topic. No matter how gifted one may be, no one able to master everything
+%instantaneously in a single trial. On the other hand, this also means that even
+%if one is not naturally gifted at something, it can be mastered through
+%diligent repetition.
+
+%In society today, there is an unfortunate misconception that Physics is a
+%difficult subject and that it is only for \textit{smart} students. Nothing
+%could be further from the truth. When students feel that they are not good
+%enough or smart enough to follow the class, it is important to let them know
+%that Physics is not about intelligence, but about curiosity driven diligence
+%and hard work. All professional Physicists today stand on the shoulders of the
+%giants of the past, and almost no research is done solely alone, but through
+%collaboration and teamwork. No one is \textit{smart} enough to do all the work
+%by one's self. I usually use myself as an example. I could not attend a leading
+%world-class research institute during my undergraduate school days, but I
+%believe through diligence and hard work, I have had the opportunity to work
+%with some of the most talented and innovative Physicists in the field.
+
+%In conclusion, my innovative endeavors in topological neutrino event
+%reconstruction, as well as my experience in successfully teaching/mentoring
+%students at both the undergraduate and graduate levels, makes me a unique
+%candidate to apply for your position. I believe I can make a significant impact
+%to your team of academic and scientific prowess at SD School of Mines \&
+%Technology.
+
+With regard to my qualifications for this job:
+\noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}@{}}
+	\textbf{PhD in relevant field:}
+	PhD in experimental particle physics, University of Hawaii, May, 2016.\\
+	\textbf{Demonstrated technical mastery in relevant disciplines:}
+	Led development of Geant4 detector simulation for miniTimeCube portable
+	neutron/neutrino detector and conducted trade studies for neutron capture
+	dopants in plastic scintillator for eventual deployment at nuclear reactor
+	site at NIST (National Institute of Standards and Technology).\\
+	\textbf{Experience developing, implementing and evaluating new methods and
+	numerical algorithms:}
+	Developed novel 3-D topological event reconstruction and particle
+	discrimination algorithms in monolithic scintillator detectors. This work
+	opens the doors to an unprecedented capability of scintillator detectors to
+	conduct directional neutrino signal searches at energies $\gtrsim
+	\SI{1}{\giga\electronvolt}$. Algorithm was successfully evaluated using
+	actual events from T2K neutrino beam line.\\
+	\textbf{Experience in converting theory into models or algorithms
+	appropriate for numerical simulation:}
+	Successfully implemented inverse beta decay kinematics for particle
+	trasport code in anti-electron neutrino detector simulation.\\
+	\textbf{Advanced programming experience/fluency in Python, FORTRAN, C
+	and/or C++:}
+	Over 8 years of experience with C/C++/ROOT, 4 years of experience with
+	python for data manipulation, experience writing and editing multiple
+	pieces of FORTRAN code.\\
+	\textbf{Experience working independently in team-research environment,
+	demonstrating self-motivation and initiative in addressing challenging
+	problems:}
+	Experience working in 3 international collaborations on particle
+	detector experiments based in Japan, US, and Europe. Took personal
+	initiative to solve problem of directional neutrino detection in
+	scintillator target medium and independently applied technique to final
+	indirect dark matter search analysis.\\
+	\textbf{Demonstrated verbal and written communication and presentation
+	skills:}
+	17 publications and 14 talks (3 talks as invited speaker) given at 
+	international venues across 3 continents.\\
+\end{tabularx}
+
+%In conclusion, my innovative endeavors in topological neutrino event
+%reconstruction, as well as experience being involved in the commissioning phase
+%of two experiments, makes me a unique candidate to apply for your position. I
+%believe I can make a significant impact to your team of academic and scientific
+%prowess at The University of Colorado.
+
+I would appreciate an opportunity to meet and discuss my application at an
+interview. I have also sent my resume and other relevant documents for your
+consideration. Please feel free to let me know if you have any questions.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.

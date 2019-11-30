@@ -1,0 +1,73 @@
+Michinari Sakai
+1235 Solano Ave Apt 10, Albany, CA 94706 USA
+Email: michsakai@gmail.com, Ph: 808.206.4357
+
+Summary
+* Extensive experience in particle/nuclear physics and modeling/simulation.
+* Proficient in large-scale analytical/statistical data analysis and algorithm
+  software development with 8 years of experience.
+* Innovative problem solving skills with the ability to interface original work
+  with larger collaboration.
+
+Experience
+* Post-doctoral Researcher, UC Berkeley (June 2018 - Present)
+  - 40 Hours/Week
+  - $56,600/Year
+  - Data analysis lead for alpha decay energy spectrum of radioactive nuclei.
+  - Supervisor for simulation/modeling of photon interactions with optical
+    wavelength shifters.
+* Post-doctoral Researcher, UCLA (March 2016 - June 2018)
+  - 40 Hours/Week
+  - $54,309/Year
+  - Lead developer of precision radioactive alpha decay spectrum model to
+    improve characterization of backgrounds in neutrinoless double beta decay
+    physics experiment.
+  - Mentor for 2 PhD students to simulate radiation shielding structures to
+    mitigate gamma/beta backgrounds for next generation neutrinoless double
+    beta decay experiments requiring ultra-low radiation environments.
+* Research Assistant, University of Hawaii at Manoa (August 2009 - May 2016)
+  - 40 Hours/Week
+  - $22,140/Year
+  - Spearheaded development of novel directional neutrino detection algorithms
+    in scintillator and demonstrated with data for the first time that this can
+    be applied to conduct indirect dark matter searches. First ever physics
+    application of neutrino directionality in scintillator.
+  - Lead developer of detector simulation code to conducted case studies of
+    neutron capture doping agents in solid scintillator. Simulation results
+    were later used to oversee detector design and construction.
+* Teaching Assistant, University of Hawaii at Manoa (August 2007 - May 2009)
+  - 20 Hours/Week
+  - $22,140/Year
+  - Planned coursework and taught 2 weekly physics laboratory curriculum for
+    classes of over 20 students each for 3 semesters. Received especially
+    positive reviews for clarity of explanation of material and teaching style.
+
+Skills
+* Software/Tools: ROOT/RooFit, Geant4, SolidWorks, AutoCAD, ComSol, LabView,
+  Pads, Git
+* Programming Languages: Proficient in Python, BASH, C/C++, Mathematica,
+  Matlab, Some experience with R
+* Human Languages: English (native), Japanese/Korean (trilingual proficiency)
+
+Leadership
+* Mentor: UC Berkeley, UCLA (March 2016 - Present)
+  - Advised 2 students with optical simulation code for current hardware
+    project. Students are now undertaking independent research tasks and
+    contributing original work.
+  - Taught weekly Geant4 physics simulation tutorials to 3 PhD-level students
+    for a semester. Students successfully learned to take on independent
+    projects.
+* Teaching Assistant: University of Hawaii at Manoa (August 2007 - May 2009)
+  - Planned coursework and taught 2 weekly physics laboratory curriculum for
+    classes of over 20 students each for 3 semesters. Received especially
+    positive reviews for clarity of explanation of material, and teaching style.
+
+Education
+* PhD, Physics (2016)
+  - GPA: 3.97/4.00, University of Hawaii at Manoa
+  - Dissertation: High Energy Neutrino Analysis at KamLAND and Application to
+    Dark Matter Search
+* Double BS, Physics and Mathematics (2005)
+  - GPA: 4.33/4.50, Sun Moon University, S. Korea
+  - President's Award 2005, Award for Outstanding Academic Achievement -
+    Samsung Corp.
