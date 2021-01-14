@@ -28,7 +28,8 @@
 \usepackage{fontspec} % For loading fonts
 %\defaultfontfeatures{Mapping=tex-text}
 %\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
-\setmainfont{Calibri} % Main document font
+%\setmainfont{Calibri} % Main document font
+\setmainfont{Times New Roman} % Main document font
 
 %\usepackage{xunicode,xltxtra,url} % Formatting packages
 
@@ -59,13 +60,13 @@
 \usepackage{amsmath,amssymb}
 
 %\titleformat{\section}{\Large\scshape\centering}{}{0em}{}[\titlerule] % Text formatting of sections
-\titleformat{\section}{\Large\scshape}{}{0em}{}[\titlerule] % Text formatting of sections
-\titlespacing{\section}{0pt}{-5pt}{-10pt} % Spacing around sections
+\titleformat{\section}{\Large}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{-5pt}{-5pt} % Spacing around sections
 
 \begin{document}
 
 \setlength{\parskip}{\baselineskip}%
-\pagestyle{empty} % Removes page numbering
+%\pagestyle{empty} % Removes page numbering
 
 %\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 
@@ -74,23 +75,13 @@
 %----------------------------------------------------------------------------------------
 
 \begin{center}
-	\noindent{\huge{\textsc{Michinari Sakai}}}\\% Your name
-	\noindent\begin{tabular}{r @{$\quad\bullet\quad$} c @{$\quad\bullet\quad$} l}
-		\href{mailto:michsakai@berkeley.edu}{michsakai@berkeley.edu} & 808.206.4357 & \href{https://www.linkedin.com/in/michinari-sakai-956b3b156/}{www.linkedin.com/in/michinari-sakai}
+	\noindent{\huge{Michinari Sakai}}\\% Your name
+	\noindent\begin{tabular}{r @{$\quad\textbullet\quad$} c @{$\quad\textbullet\quad$} l}
+		%\href{mailto:michsakai@gmail.com}{michsakai@gmail.com} & 808.206.4357 & \href{https://www.linkedin.com/in/michinari-sakai-956b3b156/}{www.linkedin.com/in/michinari-sakai-956b3b156/}
+		\small{Email: \href{mailto:michsakai@gmail.com}{michsakai@gmail.com}} & \small{Phone: 808-206-4357} & \small{Address: 1235 Solano Ave Apt 10, Albany, CA, 94706, USA}
 	\end{tabular}
 \end{center}
 
-%\section{Personal Data}
-%
-%\begin{center}
-%\noindent\begin{tabular}{rl}
-%%\textsc{Place and Date of Birth:} & Los Angeles, USA  | 16 October 1980\\
-%%\textsc{Place of Birth:} & Los Angeles, USA\\
-%%\textsc{Address:} & 475 Portola Plaza \#5-123B, Los Angeles, CA 90095, USA\\
-%%\textsc{Phone:} & +1-808-206-4357\\
-%%\textsc{email:} & \href{mailto:michsakai@ucla.edu}{michsakai@ucla.edu}
-%\end{tabular}
-%\end{center}
 
 %----------------------------------------------------------------------------------------
 %	SCHOLARSHIPS AND AWARDS
@@ -111,10 +102,10 @@
 
 \section{Summary}
 \noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}r@{}}
-	Expertise in \textsc{Geant4} particle transport simulations with 8 years
-	of experience. & \\
-	Experience with cosmogenic radiation and nuclear decay radiation in 3
-	major particle physics experiments. & \\
+	Experience with directional detection of neutrinos using scintillating
+	detectors. & \\
+	Extensive experience in analyzing large-scale data, radiation transport
+	simulations, and algorithm development. & \\
 	Innovative problem solving skills with the ability to interface original
 	work with larger collaboration. & \\
 \end{tabularx}
@@ -128,39 +119,35 @@
 
 %\noindent\begin{tabular}{r|p{10.4cm}}
 \noindent\begin{tabularx}{\linewidth}{@{}lR@{}}
-	%\textbf{CUORE (Cryogenic Underground Observatory for Rare Events)} & \textsc{Mar. 15, 2016 -} \textit{Current}\\
-	\textcolor{NavyBlue}{\textsc{UC Berkeley --- }Post-doctoral Scholar} & \textcolor{NavyBlue}{\textsc{June 2018 ---} \textit{Current}}\\
+	\textbf{Post-doctoral Researcher}, \textit{UC Berkeley} & June 2018 --- \textit{Present}\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
-		%\textit{Post-doctoral Scholar, University of California, Los Angeles (UCLA)}
-		%\textit{University of California, Los Angeles (UCLA)}
 		\begin{itemize}
-			\item Lead researcher for characterization of micro-physical
-				optical properties of wavelength shifter thinfilms.
-			\item Supervisor for \textsc{Geant4} modeling of photon
-				interactions with wavelength shifters and detector materials.
-		\end{itemize} 
-	\end{minipage}}\\
-
-	%\textbf{CUORE (Cryogenic Underground Observatory for Rare Events)} & \textsc{Mar. 15, 2016 -} \textit{Current}\\
-	\textcolor{NavyBlue}{\textsc{UCLA --- }Post-doctoral Scholar} & \textcolor{NavyBlue}{\textsc{2016 ---} \textsc{2018}}\\
-	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
-		%\textit{Post-doctoral Scholar, University of California, Los Angeles (UCLA)}
-		%\textit{University of California, Los Angeles (UCLA)}
-		\begin{itemize}
-			\item Lead developer of precision $\alpha$ decay spectrum model to
-				improve characterization of backgrounds in $0\nu\beta\beta$
-				decay searches.
-			\item Mentor for 2 PhD students to simulate radiation shielding
-				structures in \textsc{Geant4} to mitigate $\gamma$/$\beta$
-				backgrounds for next generation $0\nu\beta\beta$ searches
-				requiring ultra-low backgrounds.
-			%\item Implemented bolometer thermal model to create mock data for
-			%	first data taking.
+			%\item Lead researcher for characterization of micro-physical
+			%	optical properties of wavelength shifter thinfilms.%
+			\item Data analysis lead for energy spectrum of radioactive isotope
+				alpha decays.%
+			\item Mentor for modeling of photon interactions with optical
+				wavelength shifters with RAT (Reactor Analysis Tool).%
 		\end{itemize}
 	\end{minipage}}\\
-
-	%\textsc{Mini-TimeCube (World's Smallest Portable Neutrino Detector)} & \textsc{2009 - 2016}\\
-	\textcolor{NavyBlue}{\textsc{University of Hawaii at Manoa --- }Research Assistant} & \textcolor{NavyBlue}{\textsc{2009 --- 2016}}\\
+	%\textbf{CUORE (Cryogenic Underground Observatory for Rare Events)} & Mar. 15, 2016 - \textit{Present}\\
+	\textbf{Post-doctoral Researcher}, \textit{UCLA} & 2016 --- 2018\\
+	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
+		%\textit{Post-doctoral Scholar, University of California, Los Angeles (UCLA)}
+		%\textit{University of California, Los Angeles (UCLA)}
+		\begin{itemize}
+			\item Lead developer of precision alpha decay spectrum model to
+				improve characterization of backgrounds in neutrinoless double
+				beta decay decay searches.%
+			\item Mentor for 2 PhD students to simulate radiation shielding
+				structures in Geant4 to mitigate gamma/beta backgrounds for
+				next generation neutrinoless double beta decay searches
+				requiring ultra-low radiation environments.%
+			%\item Implemented bolometer thermal model to create mock data for
+			%	first data taking.%
+		\end{itemize}
+	\end{minipage}}\\
+	\textbf{Research Assistant}, \textit{University of Hawaii at Manoa} & 2009 --- 2016\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 		%\textit{Research Assistant, University of Hawaii at Manoa}
 		%\textit{University of Hawaii at Manoa}
@@ -169,28 +156,27 @@
 				detection technology in scintillator and demonstrated with data
 				for the first time that this can be applied to conduct indirect
 				dark matter searches in scintillator. First ever physics
-				application of neutrino directionaly in scintillator. Paper in
-				preparation.
-			\item Lead developer of \textsc{Geant4} detector simulation to
-				conducted case studies of neutron capture doping agents in
-				solid scintillator. Simulation results were later used to
-				oversee detector design and construction.
-			%\item Led development of \textsc{Geant4} detector simulation with
+				application of neutrino directionality in scintillator.%
+			\item Lead developer of neutrino detector simulation code using
+				Geant4 to conducted case studies of neutron capture doping
+				agents in solid scintillator. Simulation results were later
+				used to oversee detector design and construction.%
+			%\item Led development of Geant4 detector simulation with
 			%	team of 3 undergraduate students to conducted case studies of
 			%	neutron capture doping agents in solid scintillator. Simulation
 			%	results were later used to guide overall detector design during
-			%	construction.
+			%	construction.%
 			%\item Led critical role in directional neutrino/neutron
-			%	reconstruction algorithm.
+			%	reconstruction algorithm.%
 			%\item Was responsible for background simulation studies associated
 			%	with long lived cosmogenic isotopes \ce{^{8}He}/\ce{^{9}Li} to
-			%	quantitatively determine effect on detector live time.
+			%	quantitatively determine effect on detector live time.%
 			%\item Spearheaded trade studies for \ce{Li}/\ce{B} neutron capture
-			%	dopants in scintillator.
+			%	dopants in scintillator.%
 	%	\end{itemize}
 	%\end{minipage}}\\
-	%\textsc{KamLAND (Kamioka Liquid Scintillator Antineutrino Detector)} & \textsc{2009 - 2016}\\
-	%%Research Assistant, University of Hawaii & \textsc{Aug 20, 2009 - May 14, 2016}\\
+	%KamLAND (Kamioka Liquid Scintillator Antineutrino Detector) & 2009 - 2016\\
+	%%Research Assistant, University of Hawaii & Aug 20, 2009 - May 14, 2016\\
 	%\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 	%	%\textit{Research Assistant, University of Hawaii at Manoa}
 	%	\textit{University of Hawaii at Manoa}
@@ -212,8 +198,8 @@
 \section{Skills}
 
 \noindent\begin{tabularx}{\linewidth}{@{}rl}
-	Software/Tools: & \textsc{Geant4}, \textsc{ROOT}, \textsc{SolidWorks}, \textsc{AutoCAD}, \textsc{Pads}\\
-	Programming Languages: & Proficient in C, C++, Python, Mathematica, Fortran, BASH\\
+	Software/Tools: & ROOT, Geant4, LabView, SolidWorks, AutoCAD, ComSol, Git, Pads\\
+	Programming Languages: & Proficient in Python, C/C++, Mathematica, Matlab, BASH; Some experience with R\\
 	Human Languages: & English (native), Japanese/Korean (trilingual proficiency)\\
 \end{tabularx}
 
@@ -225,50 +211,36 @@
 \section{Leadership}
 
 \noindent\begin{tabularx}{\linewidth}{@{}lR@{}}
-	%\textsc{Mentor}, \textit{UCLA} & \textsc{Mar 2016 -} \textit{Current}\\
-	\textcolor{NavyBlue}{\textsc{Mentor} --- \textit{UC Berkeley}, \textit{UCLA}} & \textcolor{NavyBlue}{\textsc{March 2016 ---} \textit{Current}}\\
+	%Mentor --- \textit{UC Berkeley} & June 2018 ---  \textit{Present}\\
+	%Mentor, \textit{UCLA} & Mar 2016 - \textit{Present}\\
+	\textbf{Mentor}, \textit{UC Berkeley/UCLA} & March 2016 --- \textit{Present}\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 		\begin{itemize}
-			\item Advised 2 students with \textsc{Geant4} based optical
-				simulation for current hardware project. Students are now
-				undertaking independent research tasks and contribution
-				original work.
-			\item Taught weekly \textsc{Geant4} tutorials to \num{3} PhD-level
-				students for a semester. Students successfully learned to take
-				on independent simulation projects.
-				%Students learned to take on simulation projects own and make
-				%original contribution.
+			\item Advised 2 students with optical simulation code for current
+				hardware project. Students are now undertaking independent
+				research tasks and contributing original work.
+			\item Taught weekly Geant4 physics simulation tutorials to
+				\num{3} PhD-level students for a semester. Students
+				successfully learned to take on independent projects.
+%				Students learned to take on simulation projects own and make
+%				original contribution.
+%			\item Advised 2 students with Geant4 based
+%				optical simulation for current hardware project. Students are
+%				now undertaking independent research tasks and contribution
+%				original work.
+%
+%			\item Taught weekly Geant4 tutorials to \num{3} PhD-level
+%				students for a semester. Students successfully learned to take
+%				on independent simulation projects.
+%				%Students learned to take on simulation projects own and make
+%				%original contribution.
+%			\item Led weekly Physics paper discussion groups for \num{3} PhD
+%				students, and promoted team work to increase dialogue and
+%				productivity within team
 		\end{itemize}
 	\end{minipage}}\\
-
-	%%\textsc{Mentor}, \textit{UCLA} & \textsc{Mar 2016 -} \textit{Current}\\
-	%\textsc{Mentor} --- \textit{UC Berkeley} & \textsc{June 2018 --- } \textit{Current}\\
-	%\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
-	%	\begin{itemize}
-	%		\item Advised 2 students with \textsc{Geant4} based
-	%			optical simulation for current hardware project. Students are
-	%			now undertaking independent research tasks and contribution
-	%			original work.
-	%	\end{itemize}
-	%\end{minipage}}\\
-
-	%%\textsc{Mentor}, \textit{UCLA} & \textsc{Mar 2016 -} \textit{Current}\\
-	%\textsc{Mentor} --- \textit{UCLA} & \textsc{2016}\\
-	%\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
-	%	\begin{itemize}
-	%		\item Taught weekly \textsc{Geant4} tutorials to \num{3} PhD-level
-	%			students for a semester. Students successfully learned to take
-	%			on independent simulation projects.
-	%			%Students learned to take on simulation projects own and make
-	%			%original contribution.
-	%		%\item Led weekly Physics paper discussion groups for \num{3} PhD
-	%		%	students, and promoted team work to increase dialogue and
-	%		%	productivity within team
-	%	\end{itemize}
-	%\end{minipage}}\\
-
-	%\textsc{Aug 2007 - May 2009} & Teaching Assistant, University of Hawaii at Manoa\\
-	\textcolor{NavyBlue}{\textsc{Teaching Assistant} --- \textit{University of Hawaii at Manoa}} & \textcolor{NavyBlue}{\textsc{2007 --- 2009}}\\
+	%Aug 2007 - May 2009 & Teaching Assistant, University of Hawaii at Manoa\\
+	\textbf{Teaching Assistant}, \textit{University of Hawaii at Manoa} & 2007 --- 2009\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 		\begin{itemize}
 			\item Planned coursework and taught 2 weekly physics laboratory
@@ -282,8 +254,8 @@
 
 %------------------------------------------------
 
-%%\textsc{Jan 2003 - Mar 2006} & Interpreter and Teacher\\
-%	\textbf{Interpreter and Teacher} & \textsc{2003 - 2006}\\
+%Jan 2003 - Mar 2006 & Interpreter and Teacher\\
+%	\textbf{Interpreter and Teacher} & 2003 - 2006\\
 %	\multicolumn{2}{X}{Part time English lecturer for Korean undergraduate students.}\\
 %	\multicolumn{2}{X}{Part time contributing reporter and translator for campus magazine.}\\
 %	\multicolumn{2}{X}{Spontaneous trilingual interpreter for W-CARP International Education Conference.}\\
@@ -298,41 +270,41 @@
 
 %\noindent\begin{tabular}{rp{10.3cm}}	
 	\noindent\begin{tabularx}{\linewidth}{@{}lR@{}}	
-	%\textsc{PhD, Experimental Neutrino Physics} & \textsc{Aug. 20, 2007 - May 14, 2016}\\
-	%\textsc{PhD, Experimental Neutrino Physics} & \textsc{2016}\\
-	\textcolor{NavyBlue}{\textsc{PhD, Experimental Particle Physics}} & \textcolor{NavyBlue}{\textsc{2016}}\\
+	%PhD, Experimental Neutrino Physics & Aug. 20, 2007 - May 14, 2016\\
+	\textbf{PhD, Experimental Particle Physics} & 2016\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 		\begin{itemize}
-			\item[] GPA: 4.0/4.0, University of Hawaii at Manoa
-			\item[] Dissertation: High Energy Neutrino Analysis at KamLAND and
+			\item GPA: 3.97/4.00, University of Hawaii at Manoa
+			\item Dissertation: High Energy Neutrino Analysis at KamLAND and
 				Application to Dark Matter Search
 		\end{itemize}
 	\end{minipage}}\\
 	%\small GPA: 3.97/4.00 &\\
-	%\small Advisor: Prof. John G. \textsc{Learned} & \\
+	%\small Advisor: Prof. John G. Learned & \\
 
 %------------------------------------------------
 
-	%\textsc{Graduate Program in Mathematics} & \textsc{2006}\\
+	%Graduate Program in Mathematics & 2006\\
 	%\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 	%	\begin{itemize}
 	%		\item[] GPA: 4.5/4.5, Sun Moon University, S.~Korea
 	%	\end{itemize}
 	%\end{minipage}}\\
 	%%\small GPA: 4.50/4.50 &\\
-	%%& \small Advisor: Prof. Doe-Wan \textsc{Kim}\\
+	%%& \small Advisor: Prof. Doe-Wan Kim\\
 
 %------------------------------------------------
 
-	\textcolor{NavyBlue}{\textsc{Double BS, Physics and Mathematics}} & \textcolor{NavyBlue}{\textsc{2005}}\\
+	% BS, Physics and Mathematics & March 2, 2001 - August 19, 2005
+	\textbf{Double BS, Physics and Mathematics} & 2005\\
 	\multicolumn{2}{@{}l@{}}{\begin{minipage}[t]{\linewidth}
 		\begin{itemize}
-			\item[] GPA: 4.3/4.5, Sun Moon University, S.~Korea
-			\item[] President's Award 2005, Award for Outstanding Academic Achievement -- Samsung Corp.
+			\item GPA: 4.33/4.50, Sun Moon University, S.~Korea
+			\item President's Award 2005, Award for Outstanding Academic Achievement -- Samsung Corp.
 		\end{itemize}
 	\end{minipage}}\\
 	%\small Summa Cum Laude, GPA: 4.33/4.50&\\
-	%& \small Advisor: Prof. Ki-Won \textsc{Kim}\\
+	%& \small Advisor: Prof. Ki-Won Kim\\
 
 %------------------------------------------------
 
@@ -345,7 +317,7 @@
 %\section{Languages}
 %
 %\noindent\begin{tabular}{rl}
-%	\textsc{English}, \textsc{Japanese}, \textsc{Korean}\\
+%	English, Japanese, Korean\\
 %\end{tabular}
 %
 %\newpage
@@ -358,52 +330,55 @@
 \section{Talks and Presentations}
 
 \noindent\begin{tabularx}{\linewidth}{@{{}\textbullet\enskip}X@{\quad}r@{}}
-Talk: \textsc{Results from the CUORE experiment} \newline Sanford Underground Research Facility (SURF), South Dakota - Conference on Science at SURF 2019 & May 2019\\
+Seminar: Searching for New Physics with Neutrinos \newline Lawrence Livermore National Laboratory & Dec 2019\\
 
 \addlinespace[5pt]
-Seminar: \textsc{Search for Physics Beyond the Standard Model with Neutrinos} \newline Lawrence Livermore National Laboratory & May  2018\\
+Talk: Results from the CUORE experiment \newline Sanford Underground Research Facility (SURF), South Dakota - Conference on Science at SURF 2019 & May 2019\\
 
 \addlinespace[5pt]
-Invited Talk: \textsc{Monte Carlo Tools in CUORE} \newline Durham University, UK - Monte Carlo Tools for Beyond the Standard Model Physics & Apr 2018 \\
+Seminar: Search for Physics Beyond the Standard Model with Neutrinos \newline Lawrence Livermore National Laboratory & May 2018\\
 
 \addlinespace[5pt]
-Seminar: \textsc{CUORE: A Bolometric Search for Lepton Number Violation} \newline Argonne National Laboratory & Feb 2018 \\
+Invited Talk: Monte Carlo Tools in CUORE \newline Durham University, UK - Monte Carlo Tools for Beyond the Standard Model Physics & Apr 2018 \\
 
 \addlinespace[5pt]
-Talk: \textsc{CUORE and Background Reduction Case Studies for CUPID} \newline Pittsburgh/Carnegie Mellon University - Division of Nuclear Physics 2017 & Oct 2017 \\
+Seminar: CUORE: A Bolometric Search for Lepton Number Violation \newline Argonne National Laboratory & Feb 2018 \\
 
 \addlinespace[5pt]
-Invited talk: \textsc{Status of the CUORE $0\nu\beta\beta$ Decay Search} \newline Sanford Underground Research Facility (SURF), South Dakota - Conference on Science at SURF 2017 & May 2017 \\
+Talk: CUORE and Background Reduction Case Studies for CUPID \newline Pittsburgh/Carnegie Mellon University - Division of Nuclear Physics 2017 & Oct 2017 \\
 
 \addlinespace[5pt]
-Invited talk: \textsc{Particle ID and event reconstruction algorithms in scintillator} \newline Fermilab - Frontiers of Liquid Scintillator Technology & Mar 2016 \\
+Invited talk: Status of the CUORE $0\nu\beta\beta$ Decay Search \newline Sanford Underground Research Facility (SURF), South Dakota - Conference on Science at SURF 2017 & May 2017 \\
 
 \addlinespace[5pt]
-Seminar: \textsc{High Energy Analysis at KamLAND and Application to Dark Matter Search} \newline Los Alamos National Laboratory & Nov 2015 \\
+Invited talk: Particle ID and event reconstruction algorithms in scintillator \newline Fermilab - Frontiers of Liquid Scintillator Technology & Mar 2016 \\
 
 \addlinespace[5pt]
-Seminar: \textsc{High Energy Analysis at KamLAND and Application to Dark Matter Search} \newline California Institute of Technology & Nov 2015 \\
+Seminar: High Energy Analysis at KamLAND and Application to Dark Matter Search \newline Los Alamos National Laboratory & Nov 2015 \\
 
 \addlinespace[5pt]
-Seminar: \textsc{High Energy Analysis at KamLAND and Application to Dark Matter Search} \newline University of California, Los Angeles & Oct 2015 \\
+Seminar: High Energy Analysis at KamLAND and Application to Dark Matter Search \newline California Institute of Technology & Nov 2015 \\
 
 \addlinespace[5pt]
-Talk: \textsc{High Energy Analysis and Application to Dark Matter Search in KamLAND} \newline University of Hawaii at Manoa - DOE project review & Jul 2015 \\
+Seminar: High Energy Analysis at KamLAND and Application to Dark Matter Search \newline University of California, Los Angeles & Oct 2015 \\
 
 \addlinespace[5pt]
-Poster: \textsc{Indirect Dark-Matter Detection Through KamLAND} \newline Neutrino 2012, Kyoto, Japan & Jun 2012 \\
+Talk: High Energy Analysis and Application to Dark Matter Search in KamLAND \newline University of Hawaii at Manoa - DOE project review & Jul 2015 \\
 
 \addlinespace[5pt]
-Talks: \textsc{What is a Neutrino?}, \textsc{mini-TimeCube: The World's Smallest Neutrino Detector} \newline University of Hawaii at Manoa - Campus Open-house & Nov 2010/2011 \\
+Poster: Indirect Dark-Matter Detection Through KamLAND \newline Neutrino 2012, Kyoto, Japan & Jun 2012 \\
 
 \addlinespace[5pt]
-Talk: \textsc{mini-TimeCube: A Portable Directional Neutrino Detector} \newline Applied Antineutrino Physics 2010, Sendai, Japan & Aug 2010 \\
+Talks: What is a Neutrino?, mini-TimeCube: The World's Smallest Neutrino Detector \newline University of Hawaii at Manoa - Campus Open-house & Nov 2010/2011 \\
 
 \addlinespace[5pt]
-Talk: \textsc{KamLAND Summary} \newline University of Hawaii at Manoa - DOE project review & Sep 2009 \\
+Talk: mini-TimeCube: A Portable Directional Neutrino Detector \newline Applied Antineutrino Physics 2010, Sendai, Japan & Aug 2010 \\
 
 \addlinespace[5pt]
-Talk (Student Presentation): \textsc{How to solve $\theta_{23}$ degeneracy} \newline Fermilab - International Neutrino Summer School 2009 & Jul 2009 \\
+Talk: KamLAND Summary \newline University of Hawaii at Manoa - DOE project review & Sep 2009 \\
+
+\addlinespace[5pt]
+Talk (Student Presentation): How to solve $\theta_{23}$ degeneracy \newline Fermilab - International Neutrino Summer School 2009 & Jul 2009 \\
 
 \end{tabularx}
 
@@ -423,33 +398,6 @@ Talk (Student Presentation): \textsc{How to solve $\theta_{23}$ degeneracy} \new
 %\bibliographystyle{habbrvyr}
 %\bibliography{publications.bib} %name of your .bib file
 
-
-%\section{Publications}
-%
-%\noindent\begin{tabular}{rp{11cm}}
-%	\multicolumn{2}{l}{\textsc{mini-TimeCube}} \\
-%	2015 (expected) & V.A. Li et al., \textsc{mini-TimeCube}, RSI Invited Review\\
-%	\multicolumn{2}{c}{} \\
-%	\multicolumn{2}{l}{\textsc{KamLAND}} \\
-%	2015 (expected) & K. Asakura et al., \textsc{Search for the Proton Decay
-%Mode $p \rightarrow \overline{\nu} K^{+}$ with KamLAND}, Phys. Rev. D\\
-%	Mar. 2015 & K. Asakura et al., \textsc{Study of electron anti-neutrinos
-%	associated with gamma-ray bursts using KamLAND}, arXiv:1503.02137v1\\
-%	Feb. 2015 & T.I. Banks et al., \textsc{A compact ultra-clean system for
-%	deploying radioactive sources inside the KamLAND detector},
-%	10.1016/j.nima.2014.09.068\\
-%	Jan. 2015 & C. Lane et al., \textsc{A new type of Neutrino Detector for
-%	Sterile Neutrino Search at Nuclear Reactors and Nuclear Nonproliferation
-%	Applications}, arXiv:1501.06935v1\\
-%	May 2014 & A. Gando et al., \textsc{7Be Solar Neutrino Measurement with
-%	KamLAND}, arXiv:1405.6190v1\\
-%	Aug. 2011 & S. Abe et al., \textsc{Measurement of the 8B Solar Neutrino
-%	Flux with the KamLAND Liquid Scintillator Detector},
-%	10.1103/PhysRevC.84.035804\\
-%	Aug. 2011 & J. Kumar, J.G. Learned, M. Sakai, S. Smith,
-%	\textsc{Dark Matter Detection With Electron Neutrinos in Liquid
-%	Scintillation Detectors}, Phys. Rev. D84 (2011) 036007\\
-%\end{tabular}
 
 %----------------------------------------------------------------------------------------
 %	STATEMENT OF RESEARCH
@@ -473,10 +421,10 @@ Events) experiment at the University of California, Los Angeles, and University
 of California, Berkeley since 2016. The main objective of the CUORE experiment
 is to observe neutrinoless double beta ($0\nu\beta\beta$) decay in
 \ce{^{130}Te}, one of the most rarest processes thought to occur in nature. My
-work in the collaboration involves developing a \textsc{Geant4} based precision
+work in the collaboration involves developing a Geant4 based precision
 background model together with a PhD student colleague to better understand the
-radioactive contaminations in the detector that undergo $\alpha$ decay. The
-energy spectrum of the background isotopes that produce $\alpha$ dauthers
+radioactive contaminations in the detector that undergo alpha decay. The
+energy spectrum of the background isotopes that produce alpha daughters
 ($\gtrsim \SI{2.7}{\mega\electronvolt}$) exhibit peculiar features that, if
 understood correctly, will better explain the types of contamination sources
 and their distributions in the materials comprising the experiment. This can
@@ -491,7 +439,7 @@ effective Majorana neutrino mass. A paper for our first $0\nu\beta\beta$
 analysis using CUORE data was published in March 2018
 (\href{https://arxiv.org/abs/1710.07988}{https://arxiv.org/abs/1710.07988}).
 
-I led the development of the \textsc{Geant4} simulation code for the
+I led the development of the Geant4 simulation code for the
 mini-TimeCube (mTC) experiment at the University of Hawaii at Manoa from 2009
 to 2016. mTC was an ambitious project to build the world's smallest portable
 neutrino detector. In this project, I mentored 3 students and worked in
@@ -590,7 +538,7 @@ directionality in scintillator.
 %graduate student on designing and operating the cold high pressure environment
 %device.
 
-In summary my strong background in radiation/particle transport simulations and
+In summary, my strong background in radiation/particle transport simulations and
 how they affect real particle detectors, as well as, my comfort in using tools
 to analyze large-scale physics data makes me a strong candidate. Also I would
 like to reemphasize my previous accomplishments in innovating novel particle
@@ -662,7 +610,7 @@ in your team.
 %field of neutrino physics.
 %
 %Mentoring higher level graduate students may be slightly different but I
-%believe the same overall approach remains the same. I have taught \textsc{Geant4} Monte
+%believe the same overall approach remains the same. I have taught Geant4 Monte
 %Carlo particle simulations to 3 undergraduate and 3 Ph.D. students at the
 %University of California, Los Angeles (UCLA). My method for teaching this
 %toolkit is to learn together with the students by going into the details of the
@@ -738,54 +686,59 @@ in your team.
 \clearpage
 \section{References}
 
+
 \noindent\begin{tabular}{rp{12cm}}
-\multicolumn{2}{l}{\footnotesize{Supplied upon request or please contact in
-	person.}}\\
+\multicolumn{2}{l}{\footnotesize{*Reference letters supplied upon request or
+	please contact in person.}}\\
 \multicolumn{2}{c}{}\\
 
-%Gabriel \textsc{Orebi Gann} & Assistant Professor, University of California, Berkeley, +1-510-642-1571\\
+%Gabriel Orebi Gann & Assistant Professor, University of California, Berkeley, 510-642-1571\\
 %& \href{mailto:GOrebiGann@lbl.gov}{\nolinkurl{GOrebiGann@lbl.gov}}\\
 %& Leconte Hall \#317A, Berkeley, CA, 94720-7300, USA\\
 %\\
-Yury \textsc{Kolomensky} & Professor, University of California, Berkeley, +1-510-642-9619\\
-& \href{mailto:ygkolomensky@lbl.gov}{\nolinkurl{ygkolomensky@lbl.gov}}\\
-& LeConte Hall \#319, Berkeley, CA, 94720-7300, USA\\
+Yury Kolomensky & Professor, University of California, Berkeley\\
+& Phone: 510-642-9619\\
+& Email: \href{mailto:ygkolomensky@lbl.gov}{\nolinkurl{ygkolomensky@lbl.gov}}\\
+& Address: LeConte Hall \#319, Berkeley, CA, 94720-7300, USA\\
 \\
-Huan Z. \textsc{Huang} & Professor, University of California, Los Angeles, +1-310-825-9297\\
-& \href{mailto:huang@physics.ucla.edu}{\nolinkurl{huang@physics.ucla.edu}}\\
-& 475 Portola Plaza \#5-136, Los Angeles, CA 90095-1547, USA\\
+Huan Z. Huang & Professor, University of California, Los Angeles\\
+& Phone: 310-825-9297\\
+& Email: \href{mailto:huang@physics.ucla.edu}{\nolinkurl{huang@physics.ucla.edu}}\\
+& Address: 475 Portola Plaza \#5-136, Los Angeles, CA 90095-1547, USA\\
 \\
-John G. \textsc{Learned} & Professor, University of Hawaii at Manoa, +1-808-956-2964\\
-& \href{mailto:jgl@phys.hawaii.edu}{\nolinkurl{jgl@phys.hawaii.edu}}\\
-& 2505 Correa Rd. \#327, Honolulu, Hawaii 96822, USA\\
+John G. Learned & Professor, University of Hawaii at Manoa\\
+& Phone: 808-956-2964\\
+& Email: \href{mailto:jgl@phys.hawaii.edu}{\nolinkurl{jgl@phys.hawaii.edu}}\\
+& Address: 2505 Correa Rd. \#327, Honolulu, Hawaii 96822, USA\\
 \\
-%Brian K. \textsc{Fujikawa} & Staff Scientist, Lawrence Berkeley National Laboratory, +1-510-486-4398\\
+%Brian K. Fujikawa & Staff Scientist, Lawrence Berkeley National Laboratory, 510-486-4398\\
 %& \href{mailto:bkfujikawa@lbl.gov}{\nolinkurl{bkfujikawa@lbl.gov}}\\
 %& 1 Cyclotron Rd MS 50R5008, Berkeley, CA 94720-8158, USA\\
 %\\
-Lindley \textsc{Winslow} & Jerrold R. Zacharias Assistant Professor, MIT, +1-617-253-2332\\
-& \href{mailto:lwinslow@mit.edu}{\nolinkurl{lwinslow@mit.edu}}\\ 
-& 77 Massachusetts Avenue, Bldg. 26-569, Cambridge, MA 02139, USA\\
+Lindley Winslow & Jerrold R. Zacharias Assistant Professor, Massachusetts Institute of Technology\\
+& Phone: 617-253-2332\\
+& Email: \href{mailto:lwinslow@mit.edu}{\nolinkurl{lwinslow@mit.edu}}\\ 
+& Address: 77 Massachusetts Avenue, Bldg. 26-569, Cambridge, MA 02139, USA\\
 \\
-Thomas \textsc{O'Donnell} & Assistant Professor, Virginia Tech, +1-540-231-3308\\
-& \href{mailto:tdonnell@vt.edu}{\nolinkurl{tdonnell@vt.edu}}\\
-& 850 West Campus Drive \#313, Blacksburg, VA 24061, USA\\
+Thomas O'Donnell & Assistant Professor, Virginia Polytechnic Institute and State University\\
+& Phone: 540-231-3308\\
+& Email: \href{mailto:tdonnell@vt.edu}{\nolinkurl{tdonnell@vt.edu}}\\
+& Address: 850 West Campus Drive \#313, Blacksburg, VA 24061, USA\\
 
-%Kunio \textsc{Inoue} & Professor, Tohoku Univ./RCNS, +81-22-795-6727,
+%Kunio Inoue & Professor, Tohoku Univ./RCNS, +81-22-795-6727,
 %\href{mailto:inoue@awa.tohoku.ac.jp}{\nolinkurl{inoue@awa.tohoku.ac.jp}}\\
 %
-%Jason \textsc{Kumar} & Assoc. Professor, Univ. of Hawaii at Manoa, +1-808-956-2972,
+%Jason Kumar & Assoc. Professor, Univ. of Hawaii at Manoa, 808-956-2972,
 %\href{mailto:jkumar@phys.hawaii.edu}{\nolinkurl{jkumar@phys.hawaii.edu}}\\
 %
-%Jelena \textsc{Maricic} & Assoc. Professor, Univ. of Hawaii at Manoa, +1-808-956-7176,
+%Jelena Maricic & Assoc. Professor, Univ. of Hawaii at Manoa, 808-956-7176,
 %\href{mailto:jelena@phys.hawaii.edu}{\nolinkurl{jelena@phys.hawaii.edu}}\\
 
-%Adam \textsc{Bernstein} & P.I. Applied Antineutrino Physics, LLNL,
+%Adam Bernstein & P.I. Applied Antineutrino Physics, LLNL,
 %\href{mailto:bernstein3@llnl.gov}{\nolinkurl{bernstein3@llnl.gov}}\\
 %\multicolumn{2}{l}{\footnotesize{(note: I have met Dr. Bernstein once during AAP
 %2010 Sendai, so perhaps he knows me least within the listed referrers.)}}\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
-
 \end{document}

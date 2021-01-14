@@ -3,7 +3,7 @@ Employer: UC Berkeley
 Employer Address: LeConte Hall #319, Berkeley, CA, 94720-7300, USA
 Supervisor: Yury Kolomensky
 Supervisor phone: +1-510-642-9619
-Salary: $56500.00/year
+Salary: $61800.00/year
 Duties, accomplishments, and related skills:
 * Modeling and calibration of Uranium/Thorium decay radiation induced energy
   depositions in detector materials.
@@ -14,7 +14,7 @@ Employer: UC Berkeley
 Employer Address: Leconte Hall #317A, Berkeley, CA, 94720-7300, USA
 Supervisor: Gabriel Orebi Gann
 Supervisor phone: +1-510-642-1571
-Salary: $56500.00/year
+Salary: $61800.00/year
 Duties, accomplishments, and related skills:
 * Lead researcher for characterization of micro-physical optical properties of
   wavelength shifter thin films.
