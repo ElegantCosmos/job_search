@@ -1,15 +1,11 @@
-Title: Post-doctoral researcher (January 1, 2019 - Present)
-Employer: UC Berkeley
-Employer Address: LeConte Hall #319, Berkeley, CA, 94720-7300, USA
-Supervisor: Yury Kolomensky
-Supervisor phone: +1-510-642-9619
-Salary: $61800.00/year
-Duties, accomplishments, and related skills:
-* Modeling and calibration of Uranium/Thorium decay radiation induced energy
-  depositions in detector materials.
-* Data analysis lead for energy spectrum of radioactive isotope alpha decays.
+Title: Senior Professional Staff 1 (August 24, 2020 - Present)
+Employer: JHU/APL
+Employer Address: 11100 Johns Hopkins Road, Laurel, Maryland 20723-6099, USA
+Supervisor: Nadia Mattiucci
+Supervisor contact: Nadia.Mattiucci@jhuapl.edu
+Salary: $141000.00/year
 
-Title: Post-doctoral researcher (June 18, 2018 - Present)
+Title: Post-doctoral researcher (June 18, 2018 - August 7, 2020)
 Employer: UC Berkeley
 Employer Address: Leconte Hall #317A, Berkeley, CA, 94720-7300, USA
 Supervisor: Gabriel Orebi Gann
@@ -20,6 +16,17 @@ Duties, accomplishments, and related skills:
   wavelength shifter thin films.
 * Supervisor for GEANT4 modeling of photon interactions with wavelength
   shifters and detector materials.
+
+Title: Post-doctoral researcher (January 1, 2019 - May 31, 2020)
+Employer: UC Berkeley
+Employer Address: LeConte Hall #319, Berkeley, CA, 94720-7300, USA
+Supervisor: Yury Kolomensky
+Supervisor phone: +1-510-642-9619
+Salary: $61800.00/year
+Duties, accomplishments, and related skills:
+* Modeling and calibration of Uranium/Thorium decay radiation induced energy
+  depositions in detector materials.
+* Data analysis lead for energy spectrum of radioactive isotope alpha decays.
 
 Title: Post-doctoral researcher (March 15, 2016 - June 15, 2018)
 Employer: UCLA
