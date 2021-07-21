@@ -1,35 +1,35 @@
 Title: Senior Professional Staff 1 (August 24, 2020 - Present)
-Employer: JHU/APL
+Employer: The Johns Hopkins University Applied Physics Laboratory
 Employer Address: 11100 Johns Hopkins Road, Laurel, Maryland 20723-6099, USA
 Supervisor: Nadia Mattiucci
 Supervisor contact: Nadia.Mattiucci@jhuapl.edu
-Salary: $141000.00/year
+Salary: $141,000/year
 
-Title: Post-doctoral researcher (June 18, 2018 - August 7, 2020)
-Employer: UC Berkeley
+Title: Post-doctoral Researcher (June 18, 2018 - August 7, 2020)
+Employer: University of California, Berkeley
 Employer Address: Leconte Hall #317A, Berkeley, CA, 94720-7300, USA
 Supervisor: Gabriel Orebi Gann
 Supervisor phone: +1-510-642-1571
-Salary: $61800.00/year
+Salary: $61,800/year
 Duties, accomplishments, and related skills:
 * Lead researcher for characterization of micro-physical optical properties of
   wavelength shifter thin films.
 * Supervisor for GEANT4 modeling of photon interactions with wavelength
   shifters and detector materials.
 
-Title: Post-doctoral researcher (January 1, 2019 - May 31, 2020)
-Employer: UC Berkeley
+Title: Post-doctoral Researcher (January 1, 2019 - May 31, 2020)
+Employer: University of California, Berkeley
 Employer Address: LeConte Hall #319, Berkeley, CA, 94720-7300, USA
 Supervisor: Yury Kolomensky
 Supervisor phone: +1-510-642-9619
-Salary: $61800.00/year
+Salary: $61,800/year
 Duties, accomplishments, and related skills:
 * Modeling and calibration of Uranium/Thorium decay radiation induced energy
   depositions in detector materials.
 * Data analysis lead for energy spectrum of radioactive isotope alpha decays.
 
-Title: Post-doctoral researcher (March 15, 2016 - June 15, 2018)
-Employer: UCLA
+Title: Post-doctoral Researcher (March 15, 2016 - June 15, 2018)
+Employer: University of California, Los Angeles
 Employer Address: 475 Portola Plaza #5-136, Los Angeles, CA 90095-1547, USA
 Supervisor: Huan Z. Huang
 Supervisor phone: +1-310-825-9297
@@ -42,8 +42,8 @@ Duties, accomplishments, and related skills:
   mitigate gamma/beta backgrounds for next generation neutrinoless double beta
   decay experiments requiring ultra-low radiation environments.
 
-Title: Research assistant (August 20, 2009 - May 14, 2016)
-Employer: University of Hawaii
+Title: Research Assistant (August 20, 2009 - May 14, 2016)
+Employer: University of Hawaii at Manoa
 Employer Address: 2505 Correa Rd. #327, Honolulu, Hawaii 96822, USA
 Supervisor: John G. Learned
 Supervisor phone: +1-808-956-2964
@@ -57,8 +57,8 @@ Duties, accomplishments, and related skills:
   neutron capture doping agents in solid scintillator. Simulation results were
   later used to oversee detector design and construction.
 
-Title: Teaching assistant (August 20, 2007 - May 14, 2009)
-Employer: University of Hawaii
+Title: Teaching Assistant (August 20, 2007 - May 14, 2009)
+Employer: University of Hawaii at Manoa
 Employer Address: 2505 Correa Rd. #416, Honolulu, Hawaii 96822, USA
 Supervisor: Frederick A. Harris
 Supervisor phone: +1-808-956-2940
